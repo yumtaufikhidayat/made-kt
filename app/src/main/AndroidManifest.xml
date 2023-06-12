@@ -13,7 +13,7 @@
         android:theme="@style/Theme.MenjadiAndroidDeveloperExpert"
         tools:targetApi="31">
         <activity
-            android:name=".cleanarchitecture.presentation.activity.CleanArchitectureMainActivity"
+            android:name=".cleanarchitecture.practice.presentation.activity.CleanArchitectureMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,10 +1,10 @@
-package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.presentation.activity
+package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.presentation.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.presentation.viewmodel.MainViewModel
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.presentation.viewmodel.MainViewModelFactory
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.presentation.viewmodel.MainViewModel
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.presentation.viewmodel.MainViewModelFactory
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.databinding.ActivityMainCleanArchitectureBinding
 
 class CleanArchitectureMainActivity : AppCompatActivity() {

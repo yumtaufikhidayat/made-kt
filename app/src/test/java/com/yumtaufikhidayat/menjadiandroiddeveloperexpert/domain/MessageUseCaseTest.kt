@@ -1,9 +1,9 @@
 package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.domain
 
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.domain.entity.MessageEntity
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.domain.repository.IMessageRepository
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.domain.usecase.MessageInteractor
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.domain.usecase.MessageUseCase
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.domain.entity.MessageEntity
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.domain.repository.IMessageRepository
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.domain.usecase.MessageInteractor
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.domain.usecase.MessageUseCase
 import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test

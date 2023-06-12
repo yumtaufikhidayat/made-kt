@@ -1,9 +1,9 @@
-package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.presentation.viewmodel
+package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.domain.usecase.MessageUseCase
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.presentation.di.Injection
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.domain.usecase.MessageUseCase
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.practice.presentation.di.Injection
 import java.lang.IllegalArgumentException
 
 class MainViewModelFactory(
