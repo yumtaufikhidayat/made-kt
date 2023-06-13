@@ -44,7 +44,7 @@ class TourismActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.nav_host_fragment, HomeFragment())
                     .commit()
-                supportActionBar?.title = getString(R.string.app_name)
+                supportActionBar?.title = getString(R.string.menu_home)
             }
         }
     }
@@ -56,7 +56,7 @@ class TourismActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
             when (item.itemId) {
                 R.id.nav_home -> {
                     fragment = HomeFragment()
-                    title = getString(R.string.app_name)
+                    title = getString(R.string.menu_home)
                 }
                 R.id.nav_favorite -> {
                     fragment = FavoriteFragment()
