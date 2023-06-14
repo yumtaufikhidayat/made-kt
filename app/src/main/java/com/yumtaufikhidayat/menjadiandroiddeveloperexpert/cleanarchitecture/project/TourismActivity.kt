@@ -52,7 +52,7 @@ class TourismActivity : AppCompatActivity(), NavigationView.OnNavigationItemSele
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         binding.apply {
             var fragment: Fragment? = null
-            var title = getString(R.string.app_name)
+            var title = ""
             when (item.itemId) {
                 R.id.nav_home -> {
                     fragment = HomeFragment()
