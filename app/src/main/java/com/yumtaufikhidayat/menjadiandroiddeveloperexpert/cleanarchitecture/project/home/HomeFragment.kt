@@ -21,7 +21,7 @@ class HomeFragment : Fragment() {
     private val binding get() = _binding!!
 
     private var homeViewModel: HomeViewModel? = null
-    private var tourismAdapter: TourismAdapter? = null
+    private val tourismAdapter by lazy { TourismAdapter { navigateToDetail(it) } }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -42,9 +42,9 @@ class HomeFragment : Fragment() {
     }
 
     private fun setHomeAdapter() {
-        tourismAdapter = TourismAdapter {
+        /*tourismAdapter = TourismAdapter {
             navigateToDetail(it)
-        }
+        }*/
 
         binding.rvTourism.apply {
             layoutManager = LinearLayoutManager(context)
@@ -66,7 +66,7 @@ class HomeFragment : Fragment() {
                         is Resource.Loading -> showProgressBar(true)
                         is Resource.Success -> {
                             showProgressBar(false)
-                            tourismAdapter?.submitList(it.data)
+                            tourismAdapter.submitList(it.data)
                         }
                         is Resource.Error -> {
                             showProgressBar(false)
