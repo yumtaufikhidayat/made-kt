@@ -42,10 +42,6 @@ class HomeFragment : Fragment() {
     }
 
     private fun setHomeAdapter() {
-        /*tourismAdapter = TourismAdapter {
-            navigateToDetail(it)
-        }*/
-
         binding.rvTourism.apply {
             layoutManager = LinearLayoutManager(context)
             setHasFixedSize(true)
