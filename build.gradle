@@ -5,10 +5,12 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.8.20' apply false
 }
 
+// Give a comment for non Apple Silicon processor
+/*
 allprojects {
     configurations.all {
         resolutionStrategy {
             force 'org.xerial:sqlite-jdbc:3.34.0'
         }
     }
-}
+}*/
