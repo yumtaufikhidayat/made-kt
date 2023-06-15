@@ -46,6 +46,7 @@ class DetailTourismActivity : AppCompatActivity() {
                 fab.setOnClickListener {
                     statusFavorite = !statusFavorite
                     detailTourismViewModel?.setFavoriteTourism(tourism, statusFavorite)
+                    setStatusFavorite(statusFavorite)
                 }
             }
         }
