@@ -58,9 +58,16 @@ dependencies {
     def glideVersion = '4.15.1'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
 
-// Room
-    def roomVersion = '2.2.5'
+    // Room
+    def roomVersion = '2.5.1'
     implementation "androidx.room:room-runtime:$roomVersion"
     kapt "androidx.room:room-compiler:$roomVersion"
     androidTestImplementation "androidx.room:room-testing:$roomVersion"
+
+    // Retrofit
+    def retrofitVersion = '2.9.0'
+    def loggingInterceptorVersion = '4.8.0'
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$loggingInterceptorVersion"
 }
