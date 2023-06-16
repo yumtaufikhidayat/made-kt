@@ -1,35 +1,40 @@
 package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.data.source.remote
 
-import android.os.Handler
-import android.os.Looper
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.data.source.remote.network.ApiResponse
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.data.source.remote.network.ApiService
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.data.source.remote.response.ListTourismResponse
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.data.source.remote.response.TourismResponse
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.utils.JsonHelper
-import org.json.JSONException
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
-class RemoteDataSource private constructor(private val jsonHelper: JsonHelper){
+class RemoteDataSource private constructor(
+    private val apiService: ApiService
+) {
 
     fun getAllTourism(): LiveData<ApiResponse<List<TourismResponse>>> {
         val resultData = MutableLiveData<ApiResponse<List<TourismResponse>>>()
 
         // get data from local JSON
-        val handler = Handler(Looper.getMainLooper())
-        handler.postDelayed({
-            try {
-                val dataArray = jsonHelper.loadData()
-                resultData.value = if (dataArray.isNotEmpty()) {
+        val client = apiService.getList()
+        client.enqueue(object : Callback<ListTourismResponse> {
+            override fun onResponse(
+                call: Call<ListTourismResponse>,
+                response: Response<ListTourismResponse>
+            ) {
+                val dataArray = response.body()?.places
+                resultData.value = if (dataArray != null)
                     ApiResponse.Success(dataArray)
-                } else {
+                else
                     ApiResponse.Empty
-                }
-            } catch (e: JSONException){
-                resultData.value = ApiResponse.Error(e.toString())
-                Log.e("RemoteDataSource", e.toString())
             }
-        }, 2000)
+
+            override fun onFailure(call: Call<ListTourismResponse>, t: Throwable) {
+                resultData.value = ApiResponse.Error(t.message.toString())
+            }
+        })
 
         return resultData
     }
@@ -38,9 +43,9 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper){
         @Volatile
         private var instance: RemoteDataSource? = null
 
-        fun getInstance(helper: JsonHelper): RemoteDataSource =
+        fun getInstance(service: ApiService): RemoteDataSource =
             instance ?: synchronized(this) {
-                instance ?: RemoteDataSource(helper)
+                instance ?: RemoteDataSource(service)
             }
     }
 }
