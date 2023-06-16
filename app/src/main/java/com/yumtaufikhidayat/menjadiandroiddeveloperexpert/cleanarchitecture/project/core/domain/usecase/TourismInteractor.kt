@@ -5,7 +5,7 @@ import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.proj
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.domain.model.Tourism
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.domain.repository.ITourismRepository
 
-class TourismUseCaseInteractor(private val tourismRepository: ITourismRepository) : TourismUseCase {
+class TourismInteractor(private val tourismRepository: ITourismRepository) : TourismUseCase {
     override fun getAllTourism(): LiveData<Resource<List<Tourism>>> {
         return tourismRepository.getAllTourism()
     }

@@ -7,7 +7,7 @@ import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.proj
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.data.source.remote.RemoteDataSource
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.domain.repository.ITourismRepository
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.domain.usecase.TourismUseCase
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.domain.usecase.TourismUseCaseInteractor
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.domain.usecase.TourismInteractor
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.utils.AppExecutors
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.utils.JsonHelper
 
@@ -24,6 +24,6 @@ object Injection {
 
     fun provideTourismUseCase(context: Context): TourismUseCase {
         val repository = provideRepository(context)
-        return TourismUseCaseInteractor(repository)
+        return TourismInteractor(repository)
     }
 }
