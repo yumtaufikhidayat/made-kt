@@ -24,7 +24,7 @@
             android:name=".cleanarchitecture.practice.presentation.activity.CleanArchitectureMainActivity"
             android:exported="false" />
         <activity
-            android:name=".ReactiveXActivity"
+            android:name=".reactivex.practice.ReactiveXActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

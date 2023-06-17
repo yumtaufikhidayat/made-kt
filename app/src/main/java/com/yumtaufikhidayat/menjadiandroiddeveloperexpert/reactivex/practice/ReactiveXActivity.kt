@@ -1,4 +1,4 @@
-package com.yumtaufikhidayat.menjadiandroiddeveloperexpert
+package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.reactivex.practice
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.util.Patterns
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.jakewharton.rxbinding2.widget.RxTextView
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.R
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.databinding.ActivityReactiveXBinding
 import io.reactivex.Observable
 import io.reactivex.functions.Function3
@@ -82,7 +83,9 @@ class ReactiveXActivity : AppCompatActivity() {
             binding.btnRegister.apply {
                 if (isValid) {
                     isEnabled = true
-                    setBackgroundColor(ContextCompat.getColor(this@ReactiveXActivity, R.color.purple_500))
+                    setBackgroundColor(ContextCompat.getColor(this@ReactiveXActivity,
+                        R.color.purple_500
+                    ))
                 } else {
                     isEnabled = false
                     setBackgroundColor(ContextCompat.getColor(this@ReactiveXActivity, android.R.color.darker_gray))
