@@ -16,4 +16,13 @@
     <string name="title_activity_detail_home">DetailHomeActivity</string>
     <string name="no_data">Empty data</string>
     <string name="something_wrong">Oops.. something went wrong</string>
+
+    <!--  Practice: ReactiveX Starter Project  -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="email_not_valid">Format email tidak valid!</string>
+    <string name="password_not_valid">Password kurang dari 6 karakter!</string>
+    <string name="password_not_same">Password tidak sama!</string>
 </resources>
