@@ -1,77 +1,91 @@
 package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.reactivex.project.core.data
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MediatorLiveData
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.data.source.remote.network.ApiResponse
-import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.cleanarchitecture.project.core.utils.AppExecutors
+import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.reactivex.project.core.data.source.remote.network.ApiResponseReactiveX
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.reactivex.project.core.utils.AppExecutorsReactiveX
+import io.reactivex.BackpressureStrategy
+import io.reactivex.Flowable
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.schedulers.Schedulers
+import io.reactivex.subjects.PublishSubject
 
 abstract class NetworkBoundResourceReactiveX<ResultType, RequestType>(private val mExecutors: AppExecutorsReactiveX) {
 
-    private val result = MediatorLiveData<ResourceReactiveX<ResultType>>()
+    private val result = PublishSubject.create<ResourceReactiveX<ResultType>>()
+    private val mCompositeDisposable = CompositeDisposable()
 
     init {
-        result.value = ResourceReactiveX.Loading(null)
-
         @Suppress("LeakingThis")
         val dbSource = loadFromDB()
-
-        result.addSource(dbSource) { data ->
-            result.removeSource(dbSource)
-            if (shouldFetch(data)) {
-                fetchFromNetwork(dbSource)
-            } else {
-                result.addSource(dbSource) { newData ->
-                    result.value = ResourceReactiveX.Success(newData)
+        val db = dbSource
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .take(1)
+            .subscribe { value ->
+                dbSource.unsubscribeOn(Schedulers.io())
+                if (shouldFetch(value)) {
+                    fetchFromNetwork()
+                } else {
+                    result.onNext(ResourceReactiveX.Success(value))
                 }
             }
-        }
+        mCompositeDisposable.add(db)
     }
 
     protected open fun onFetchFailed() {}
 
-    protected abstract fun loadFromDB(): LiveData<ResultType>
+    protected abstract fun loadFromDB(): Flowable<ResultType>
 
     protected abstract fun shouldFetch(data: ResultType?): Boolean
 
-    protected abstract fun createCall(): LiveData<ApiResponse<RequestType>>
+    protected abstract fun createCall(): Flowable<ApiResponseReactiveX<RequestType>>
 
     protected abstract fun saveCallResult(data: RequestType)
 
-    private fun fetchFromNetwork(dbSource: LiveData<ResultType>) {
+    private fun fetchFromNetwork() {
 
         val apiResponse = createCall()
 
-        result.addSource(dbSource) { newData ->
-            result.value = ResourceReactiveX.Loading(newData)
-        }
-        result.addSource(apiResponse) { response ->
-            result.removeSource(apiResponse)
-            result.removeSource(dbSource)
-            when (response) {
-                is ApiResponse.Success ->
-                    mExecutors.diskIO().execute {
+        result.onNext(ResourceReactiveX.Loading(null))
+        val response = apiResponse
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .take(1)
+            .doOnComplete {
+                mCompositeDisposable.dispose()
+            }
+            .subscribe { response ->
+                when (response) {
+                    is ApiResponseReactiveX.Success -> {
                         saveCallResult(response.data)
-                        mExecutors.mainThread().execute {
-                            result.addSource(loadFromDB()) { newData ->
-                                result.value = ResourceReactiveX.Success(newData)
+                        val dbSource = loadFromDB()
+                        dbSource.subscribeOn(Schedulers.computation())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .take(1)
+                            .subscribe {
+                                dbSource.unsubscribeOn(Schedulers.io())
+                                result.onNext(ResourceReactiveX.Success(it))
                             }
-                        }
                     }
-                is ApiResponse.Empty -> mExecutors.mainThread().execute {
-                    result.addSource(loadFromDB()) { newData ->
-                        result.value = ResourceReactiveX.Success(newData)
+                    is ApiResponseReactiveX.Empty -> {
+                        val dbSource = loadFromDB()
+                        dbSource.subscribeOn(Schedulers.computation())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .take(1)
+                            .subscribe {
+                                dbSource.unsubscribeOn(Schedulers.io())
+                                result.onNext(ResourceReactiveX.Success(it))
+                            }
                     }
-                }
-                is ApiResponse.Error -> {
-                    onFetchFailed()
-                    result.addSource(dbSource) { newData ->
-                        result.value = ResourceReactiveX.Error(response.errorMessage, newData)
+                    is ApiResponseReactiveX.Error -> {
+                        onFetchFailed()
+                        result.onNext(ResourceReactiveX.Error(response.errorMessage, null))
                     }
                 }
             }
-        }
+        mCompositeDisposable.add(response)
     }
 
-    fun asLiveData(): LiveData<ResourceReactiveX<ResultType>> = result
+    fun asFlowable(): Flowable<ResourceReactiveX<ResultType>> =
+        result.toFlowable(BackpressureStrategy.BUFFER)
 }

@@ -58,22 +58,30 @@ dependencies {
     def glideVersion = '4.15.1'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
 
-    // Room
+    // Room + ReactiveX
     def roomVersion = '2.5.1'
     implementation "androidx.room:room-runtime:$roomVersion"
+    implementation "androidx.room:room-rxjava2:$roomVersion"
     kapt "androidx.room:room-compiler:$roomVersion"
     androidTestImplementation "androidx.room:room-testing:$roomVersion"
 
-    // Retrofit
+    // Retrofit + OkHttp + ReactiveX
     def retrofitVersion = '2.9.0'
     def loggingInterceptorVersion = '4.8.0'
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.squareup.okhttp3:logging-interceptor:$loggingInterceptorVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
 
     // ReactiveX libs
     def rxJavaVersion = '2.2.19'
     def rxBindingVersion = '2.0.0'
+    def rxAndroidVersion = "2.1.1"
     implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
     implementation "com.jakewharton.rxbinding2:rxbinding:$rxBindingVersion"
+
+    // LiveData + ReactiveX
+    def lifecycleVersion = '2.2.0'
+    implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycleVersion"
 }

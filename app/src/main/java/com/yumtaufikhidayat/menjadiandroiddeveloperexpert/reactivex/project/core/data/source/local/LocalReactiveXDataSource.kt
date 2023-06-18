@@ -1,14 +1,14 @@
 package com.yumtaufikhidayat.menjadiandroiddeveloperexpert.reactivex.project.core.data.source.local
 
-import androidx.lifecycle.LiveData
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.reactivex.project.core.data.source.local.entity.TourismReactiveXEntity
 import com.yumtaufikhidayat.menjadiandroiddeveloperexpert.reactivex.project.core.data.source.local.room.TourismReactiveXDao
+import io.reactivex.Flowable
 
 class LocalReactiveXDataSource private constructor(private val tourismDao: TourismReactiveXDao) {
 
-    fun getAllTourism(): LiveData<List<TourismReactiveXEntity>> = tourismDao.getAllTourism()
+    fun getAllTourism(): Flowable<List<TourismReactiveXEntity>> = tourismDao.getAllTourism()
 
-    fun getFavoriteTourism(): LiveData<List<TourismReactiveXEntity>> = tourismDao.getFavoriteTourism()
+    fun getFavoriteTourism(): Flowable<List<TourismReactiveXEntity>> = tourismDao.getFavoriteTourism()
 
     fun insertTourism(tourismList: List<TourismReactiveXEntity>) = tourismDao.insertTourism(tourismList)
 
