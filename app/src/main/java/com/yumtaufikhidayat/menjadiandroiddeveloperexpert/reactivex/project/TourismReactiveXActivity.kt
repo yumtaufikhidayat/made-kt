@@ -21,6 +21,8 @@ class TourismReactiveXActivity : AppCompatActivity(), NavigationView.OnNavigatio
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        setSupportActionBar(binding.appBarMain.toolbar)
+
         setUi(savedInstanceState)
     }
 
