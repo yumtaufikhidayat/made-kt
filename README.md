@@ -1,2 +1,2 @@
 # android-expert-kt
-This is a repository to learn Menjadi Android Developert Expert class from Dicoding
+This is a repository to complete submission of Menjadi Android Developer Expert class from Dicoding.
