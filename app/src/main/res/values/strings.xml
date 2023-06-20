@@ -25,4 +25,7 @@
     <string name="email_not_valid">Format email tidak valid!</string>
     <string name="password_not_valid">Password kurang dari 6 karakter!</string>
     <string name="password_not_same">Password tidak sama!</string>
+
+    <!--  Practice: Reactive Search  -->
+    <string name="your_place">Lokasi Kamu</string>
 </resources>

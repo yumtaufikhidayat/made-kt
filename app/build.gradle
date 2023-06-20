@@ -84,4 +84,16 @@ dependencies {
     // LiveData + ReactiveX
     def lifecycleVersion = '2.2.0'
     implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycleVersion"
+
+    // Coroutine
+    def coroutineVersion = '1.6.4'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
+
+    // LiveData + Android KTX
+    def activityKtxVersion = '1.7.2'
+    def lifecycleKtxVersion = '2.5.1'
+    implementation "androidx.activity:activity-ktx:$activityKtxVersion" //by viewModels()
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleKtxVersion" //lifecycleScope
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleKtxVersion" //asLiveData
 }
