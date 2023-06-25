@@ -91,9 +91,9 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
 
     // LiveData + Android KTX
-    def activityKtxVersion = '1.7.2'
+    /*def activityKtxVersion = '1.7.2'
     def lifecycleKtxVersion = '2.5.1'
     implementation "androidx.activity:activity-ktx:$activityKtxVersion" //by viewModels()
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleKtxVersion" //lifecycleScope
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleKtxVersion" //asLiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleKtxVersion" //asLiveData*/
 }

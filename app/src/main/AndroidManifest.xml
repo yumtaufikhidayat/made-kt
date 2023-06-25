@@ -15,25 +15,10 @@
         android:theme="@style/Theme.MenjadiAndroidDeveloperExpert"
         tools:targetApi="31">
         <activity
-            android:name=".coroutineflow.practice.ui.ReactiveSearchActivity"
+            android:name=".reactivex.detail.DetailTourismReactiveXActivity"
             android:exported="false" />
         <activity
-            android:name=".reactivex.project.detail.DetailTourismReactiveXActivity"
-            android:exported="false" />
-        <activity
-            android:name=".reactivex.practice.ReactiveXActivity"
-            android:exported="false" />
-        <activity
-            android:name=".cleanarchitecture.project.TourismActivity"
-            android:exported="false" />
-        <activity
-            android:name=".cleanarchitecture.project.detail.DetailTourismActivity"
-            android:exported="false" />
-        <activity
-            android:name=".cleanarchitecture.practice.presentation.activity.CleanArchitectureMainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".reactivex.project.TourismReactiveXActivity"
+            android:name=".reactivex.TourismReactiveXActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
