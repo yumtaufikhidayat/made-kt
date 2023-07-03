@@ -1,22 +1,25 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-kapt'
     id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
-    namespace 'com.yumtaufikhidayat.menjadiandroiddeveloperexpert'
-    compileSdk 33
+    namespace 'com.yumtaufikhidayat.moviesx'
+    compileSdk 34
 
     defaultConfig {
-        applicationId "com.yumtaufikhidayat.menjadiandroiddeveloperexpert"
-        minSdk 28
-        targetSdk 33
+        applicationId "com.yumtaufikhidayat.moviesx"
+        minSdk 26
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "API_KEY", api_key)
     }
 
     buildTypes {
@@ -34,6 +37,7 @@ android {
     }
     buildFeatures {
         viewBinding true
+        buildConfig true
     }
 }
 
@@ -51,49 +55,56 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    testImplementation "org.mockito:mockito-core:4.7.0"
-    testImplementation "org.mockito:mockito-inline:4.7.0"
+
+    // Navigation component
+    def navKTXVersion = '2.6.0'
+    implementation "androidx.navigation:navigation-fragment-ktx:$navKTXVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navKTXVersion"
 
     // Glide
     def glideVersion = '4.15.1'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
 
-    // Room + ReactiveX
-    def roomVersion = '2.5.1'
-    implementation "androidx.room:room-runtime:$roomVersion"
-    implementation "androidx.room:room-rxjava2:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
-    androidTestImplementation "androidx.room:room-testing:$roomVersion"
+    // View Model
+    def lifeCycleVersion = '2.2.0'
+    def lifeCycleKtxVersion = '2.6.1'
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifeCycleVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCycleKtxVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifeCycleKtxVersion"
 
-    // Retrofit + OkHttp + ReactiveX
+    // Network
     def retrofitVersion = '2.9.0'
-    def loggingInterceptorVersion = '4.8.0'
+    def okHttpVersion = '4.10.0'
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    implementation "com.squareup.okhttp3:logging-interceptor:$loggingInterceptorVersion"
-    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
-
-    // ReactiveX libs
-    def rxJavaVersion = '2.2.19'
-    def rxBindingVersion = '2.0.0'
-    def rxAndroidVersion = "2.1.1"
-    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
-    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
-    implementation "com.jakewharton.rxbinding2:rxbinding:$rxBindingVersion"
-
-    // LiveData + ReactiveX
-    def lifecycleVersion = '2.2.0'
-    implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycleVersion"
+    implementation "com.squareup.okhttp3:okhttp:$okHttpVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
 
     // Coroutine
-    def coroutineVersion = '1.6.4'
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
+    def coroutineCoreVersion = '1.6.2'
+    def coroutineAndroidVersion = '1.7.1'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineCoreVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineAndroidVersion"
 
-    // LiveData + Android KTX
-    /*def activityKtxVersion = '1.7.2'
-    def lifecycleKtxVersion = '2.5.1'
-    implementation "androidx.activity:activity-ktx:$activityKtxVersion" //by viewModels()
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleKtxVersion" //lifecycleScope
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleKtxVersion" //asLiveData*/
+    // Android KTX
+    def androidKTXVersion = '1.6.0'
+    implementation "androidx.fragment:fragment-ktx:$androidKTXVersion"
+
+    // Hilt
+    def hiltVersion = '2.46.1'
+    implementation "com.google.dagger:hilt-android:$hiltVersion"
+    kapt "com.google.dagger:hilt-compiler:$hiltVersion"
+
+    // Paging
+    def pagingVersion = '3.1.1'
+    implementation "androidx.paging:paging-runtime-ktx:$pagingVersion"
+    implementation "androidx.paging:paging-common-ktx:$pagingVersion"
+
+    // Shimmer layout
+    def shimmerVersion = '0.5.0'
+    implementation "com.facebook.shimmer:shimmer:$shimmerVersion"
+}
+
+kapt {
+    correctErrorTypes true
 }
