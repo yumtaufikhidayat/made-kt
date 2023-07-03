@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">MADE Movies</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tvPoster">Poster</string>
     <string name="tvBanner">Banner</string>
     <string name="tvMovies">Movies</string>
