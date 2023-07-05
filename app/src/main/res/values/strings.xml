@@ -42,4 +42,5 @@
     <string name="tvVisitMovie">Visit this awesome movies \n%s</string>
     <string name="tvNameCharacter">%s \n (%s)</string>
     <string name="tvRetry">Retry</string>
+    <string name="tvFavorites">Favorite</string>
 </resources>
