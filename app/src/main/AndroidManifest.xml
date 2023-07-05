@@ -16,7 +16,7 @@
         android:theme="@style/Theme.MoviesX"
         tools:targetApi="31">
         <activity
-            android:name="com.yumtaufikhidayat.made.ui.MainActivity"
+            android:name="com.yumtaufikhidayat.made.ui.main.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
