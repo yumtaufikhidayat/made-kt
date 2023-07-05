@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_splashScreenFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -36,4 +39,9 @@
         android:name="com.yumtaufikhidayat.made.ui.discover.fragment.DiscoverMovieFragment"
         android:label="fragment_search_movie"
         tools:layout="@layout/fragment_discover_movie" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.yumtaufikhidayat.made.ui.favorite.fragment.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
 </navigation>
