@@ -20,14 +20,14 @@ import com.yumtaufikhidayat.made.ui.movie.viewmodel.HomeViewModel
 import com.yumtaufikhidayat.made.utils.navigateToDetail
 import com.yumtaufikhidayat.made.utils.showError
 import com.yumtaufikhidayat.moviesx.R
-import com.yumtaufikhidayat.moviesx.databinding.FragmentHomeBinding
+import com.yumtaufikhidayat.moviesx.databinding.FragmentMovieBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class MovieFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentMovieBinding? = null
     private val binding get() = _binding!!
 
     private val homeViewModel by viewModels<HomeViewModel>()
@@ -37,21 +37,16 @@ class MovieFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentMovieBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        setToolbarHome()
         setMovieListAdapter()
         setObserver()
         navigateToSearch()
-    }
-
-    private fun setToolbarHome() {
-        binding.toolbarHome.tvToolbar.text = getString(R.string.tvNowPlayingMovies)
     }
 
     private fun setMovieListAdapter() {
