@@ -1,4 +1,4 @@
-package com.yumtaufikhidayat.made.ui.home.viewmodel
+package com.yumtaufikhidayat.made.ui.movie.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

@@ -1,4 +1,4 @@
-package com.yumtaufikhidayat.made.ui.home.adapter
+package com.yumtaufikhidayat.made.ui.movie.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

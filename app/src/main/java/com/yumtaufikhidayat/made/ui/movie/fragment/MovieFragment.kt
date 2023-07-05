@@ -1,4 +1,4 @@
-package com.yumtaufikhidayat.made.ui.home.fragment
+package com.yumtaufikhidayat.made.ui.movie.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -14,9 +14,9 @@ import androidx.paging.LoadState
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.yumtaufikhidayat.made.data.NetworkResult
 import com.yumtaufikhidayat.made.model.genres.Genre
-import com.yumtaufikhidayat.made.ui.home.adapter.LoadMoreAdapter
-import com.yumtaufikhidayat.made.ui.home.adapter.MovieAdapter
-import com.yumtaufikhidayat.made.ui.home.viewmodel.HomeViewModel
+import com.yumtaufikhidayat.made.ui.movie.adapter.LoadMoreAdapter
+import com.yumtaufikhidayat.made.ui.movie.adapter.MovieAdapter
+import com.yumtaufikhidayat.made.ui.movie.viewmodel.HomeViewModel
 import com.yumtaufikhidayat.made.utils.navigateToDetail
 import com.yumtaufikhidayat.made.utils.showError
 import com.yumtaufikhidayat.moviesx.R
