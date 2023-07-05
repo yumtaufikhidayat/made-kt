@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".ui.details.fragment.DetailMovieFragment">
+    tools:context="com.yumtaufikhidayat.made.ui.details.fragment.DetailMovieFragment">
 
     <include
         android:id="@+id/toolbarDetailMovie"
-        layout="@layout/toolbar_general" />
+        layout="@layout/toolbar_detail" />
 
     <ScrollView
         android:id="@+id/scrollDetailMovie"
