@@ -6,7 +6,6 @@ import com.yumtaufikhidayat.made.data.remote.ApiService
 import com.yumtaufikhidayat.made.model.main.MovieMainResult
 import com.yumtaufikhidayat.made.utils.Constant
 import retrofit2.HttpException
-import java.lang.Exception
 
 class MoviePagingSource(
     private val apiService: ApiService
