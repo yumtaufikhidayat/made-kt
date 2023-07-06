@@ -199,7 +199,6 @@ class DetailMovieFragment : Fragment() {
 
     private fun shareMovie(url: String) {
         binding.toolbarDetailMovie.apply {
-            imgShare.isVisible = true
             imgShare.setOnClickListener {
                 try {
                     val body = getString(R.string.tvVisitMovie, url)
