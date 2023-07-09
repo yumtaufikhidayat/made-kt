@@ -1,25 +1,20 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-parcelize'
-    id 'kotlin-kapt'
-    id 'androidx.navigation.safeargs'
-    id 'dagger.hilt.android.plugin'
 }
 
 android {
-    namespace 'com.yumtaufikhidayat.moviesx'
-    compileSdk 34
+    namespace 'com.yumtaufikhidayat.rickandmortys'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.yumtaufikhidayat.moviesx"
+        applicationId "com.yumtaufikhidayat.rickandmortys"
         minSdk 26
-        targetSdk 34
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "API_KEY", api_key)
     }
 
     buildTypes {
@@ -29,82 +24,21 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '17'
-    }
-    buildFeatures {
-        viewBinding true
-        buildConfig true
+        jvmTarget = '1.8'
     }
 }
 
 dependencies {
 
-    // Core
-    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-
-    // UI
-    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-
-    // Testing
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-
-    // Navigation component
-    def navKTXVersion = '2.6.0'
-    implementation "androidx.navigation:navigation-fragment-ktx:$navKTXVersion"
-    implementation "androidx.navigation:navigation-ui-ktx:$navKTXVersion"
-
-    // Glide
-    def glideVersion = '4.15.1'
-    implementation "com.github.bumptech.glide:glide:$glideVersion"
-
-    // View Model
-    def lifeCycleVersion = '2.2.0'
-    def lifeCycleKtxVersion = '2.6.1'
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifeCycleVersion"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCycleKtxVersion"
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifeCycleKtxVersion"
-
-    // Network
-    def retrofitVersion = '2.9.0'
-    def okHttpVersion = '4.10.0'
-    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    implementation "com.squareup.okhttp3:okhttp:$okHttpVersion"
-    implementation "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
-
-    // Coroutine
-    def coroutineCoreVersion = '1.6.2'
-    def coroutineAndroidVersion = '1.7.1'
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineCoreVersion"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineAndroidVersion"
-
-    // Android KTX
-    def androidKTXVersion = '1.6.0'
-    implementation "androidx.fragment:fragment-ktx:$androidKTXVersion"
-
-    // Hilt
-    def hiltVersion = '2.46.1'
-    implementation "com.google.dagger:hilt-android:$hiltVersion"
-    kapt "com.google.dagger:hilt-compiler:$hiltVersion"
-
-    // Paging
-    def pagingVersion = '3.1.1'
-    implementation "androidx.paging:paging-runtime-ktx:$pagingVersion"
-    implementation "androidx.paging:paging-common-ktx:$pagingVersion"
-
-    // Shimmer layout
-    def shimmerVersion = '0.5.0'
-    implementation "com.facebook.shimmer:shimmer:$shimmerVersion"
-}
-
-kapt {
-    correctErrorTypes true
 }
