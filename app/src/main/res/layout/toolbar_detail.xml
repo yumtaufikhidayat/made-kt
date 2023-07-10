@@ -36,6 +36,16 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@id/imgBack"
+            app:layout_constraintEnd_toEndOf="@id/imgFavorite"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_not_favorite"
+            app:layout_constraintTop_toTopOf="@id/tvToolbar"
+            app:layout_constraintBottom_toBottomOf="@id/tvToolbar"
             app:layout_constraintEnd_toEndOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
