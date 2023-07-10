@@ -1,10 +1,14 @@
 package com.yumtaufikhidayat.rickandmortys.ui.detail
 
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.yumtaufikhidayat.rickandmortys.R
 import com.yumtaufikhidayat.rickandmortys.core.domain.model.Character
@@ -20,6 +24,7 @@ class DetailFragment : Fragment() {
     private var _binding: FragmentDetailBinding? = null
     private val binding get() = _binding!!
 
+    private val viewModel: DetailViewModel by viewModels()
     private var character: Character? = null
 
     override fun onCreateView(
@@ -50,17 +55,47 @@ class DetailFragment : Fragment() {
 
     private fun setDetailCharacterInformation() {
         binding.apply {
-            val status = character?.status ?: getString(R.string.tvNA)
-            imgCharacter.loadImage(character?.image.orEmpty())
-            tvCharacterName.text = character?.name ?: getString(R.string.tvNA)
-            tvCharacterSpecies.text = character?.species ?: getString(R.string.tvNA)
-            tvCharacterGender.text = character?.gender ?: getString(R.string.tvNA)
-            tvCharacterStatus.apply {
-                text = status
-                textStatusColor(status)
+            character?.let { data ->
+                imgCharacter.loadImage(data.image)
+                tvCharacterName.text = data.name
+                tvCharacterSpecies.text = data.species
+                tvCharacterGender.text = data.gender
+
+                val status = data.status
+                tvCharacterStatus.apply {
+                    text = status
+                    textStatusColor(status)
+                }
+
+                tvCharacterCreatedAt.text = Common.covertDateToTime(data.created)
+
+                var statusFavorite = data.isFavorite
+                setFavoriteCharacter(statusFavorite)
+                toolbarDetail.imgFavorite.setOnClickListener {
+                    statusFavorite = !statusFavorite
+                    viewModel.setFavoriteCharacter(data, statusFavorite)
+                    setFavoriteCharacter(statusFavorite)
+                }
             }
-            tvCharacterCreatedAt.text = Common.covertDateToTime(character?.created.orEmpty())
         }
+    }
+
+    private fun setFavoriteCharacter(isFavorite: Boolean?) {
+        binding.toolbarDetail.imgFavorite.apply {
+            if (isFavorite == true) {
+                setImageDrawable(setFavoriteIconInfo(R.drawable.ic_favorite))
+                showToast("Saved to favorite")
+            } else {
+                setImageDrawable(setFavoriteIconInfo(R.drawable.ic_not_favorite))
+                showToast("Removed from favorite")
+            }
+        }
+    }
+
+    private fun setFavoriteIconInfo(icon: Int): Drawable? = ContextCompat.getDrawable(requireContext(), icon)
+
+    private fun showToast(message: String) {
+        Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
     }
 
     override fun onDestroyView() {
