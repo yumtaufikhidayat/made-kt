@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Rick and Morty\'s</string>
+    <string name="tvCharacters">Characters</string>
+    <string name="tvFavorite">Favorite</string>
+    <string name="tvOops">Oops!</string>
+    <string name="tvSomethingWrong">Something went wrong…</string>
 </resources>
