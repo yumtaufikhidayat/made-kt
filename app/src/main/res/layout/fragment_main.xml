@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.MainFragment">
 
+    <include
+        android:id="@+id/toolbarMain"
+        layout="@layout/toolbar_home"/>
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayoutMain"
         android:layout_width="match_parent"
@@ -15,9 +19,9 @@
         app:tabInlineLabel="true"
         app:tabIndicatorColor="@color/purple_700"
         app:tabIndicatorHeight="2dp"
-        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="@color/colorSemiBlack"
         app:tabSelectedTextColor="@color/purple_700"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/toolbarMain"/>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPagerMain"
