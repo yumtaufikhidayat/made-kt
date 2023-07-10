@@ -4,4 +4,24 @@
     <string name="tvFavorite">Favorite</string>
     <string name="tvOops">Oops!</string>
     <string name="tvSomethingWrong">Something went wrong…</string>
+    <string name="tvDetails">Details</string>
+    <string name="tvName">Name</string>
+    <string name="tvSpecies">Species</string>
+    <string name="tvGender">Gender</string>
+    <string name="tvStatus">Status</string>
+    <string name="tvCreatedAt">Created At</string>
+    <string name="tvNA">N/A</string>
+    <string name="tvJustNow">Just now</string>
+    <string name="tvMinuteAgo">A minute ago</string>
+    <string name="tvHourAgo">An hour ago</string>
+    <string name="tvYesterday">Yesterday</string>
+    <string name="tvWeekAgo">A week ago</string>
+    <string name="tvMonthAgo">A month ago</string>
+    <string name="tvYearAgo">A year ago</string>
+    <string name="tvYearsAgo">Years ago</string>
+    <string name="tvM">m ago</string>
+    <string name="tvH">h ago</string>
+    <string name="tvD">d ago</string>
+    <string name="tvW">w ago</string>
+    <string name="tvMo">mo ago</string>
 </resources>
