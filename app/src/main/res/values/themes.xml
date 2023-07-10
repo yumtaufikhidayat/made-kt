@@ -1,9 +1,13 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.RickAndMortys" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/purple_700</item>
     </style>
 
     <style name="Theme.RickAndMortys" parent="Base.Theme.RickAndMortys" />
+
+    <style name="RoundedCornerImage">
+        <item name="cornerSize">20dp</item>
+    </style>
 </resources>
