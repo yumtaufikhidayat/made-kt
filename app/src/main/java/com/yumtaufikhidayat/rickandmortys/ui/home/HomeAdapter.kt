@@ -36,10 +36,11 @@ class HomeAdapter(
                 tvCharacterName.text = data.name
                 tvSpecies.text = data.species
 
-                val statusColor = if (data.status == "Alive")
-                    ContextCompat.getColor(itemView.context, android.R.color.holo_green_light)
-                else
-                    ContextCompat.getColor(itemView.context, android.R.color.holo_red_light)
+                val statusColor = when (data.status) {
+                    "Alive" -> ContextCompat.getColor(itemView.context, android.R.color.holo_green_light)
+                    "unknown" -> ContextCompat.getColor(itemView.context, R.color.colorSemiBlack)
+                    else -> ContextCompat.getColor(itemView.context, android.R.color.holo_red_light)
+                }
 
                 tvStatus.apply {
                     text = data.status
