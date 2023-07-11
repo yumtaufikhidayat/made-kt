@@ -2,8 +2,6 @@ package com.yumtaufikhidayat.rickandmortys.core.data.source.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.yumtaufikhidayat.rickandmortys.core.data.source.remote.response.Location
-import com.yumtaufikhidayat.rickandmortys.core.data.source.remote.response.Origin
 
 @Entity(tableName = CharacterEntity.TABLE_CHARACTER)
 data class CharacterEntity(

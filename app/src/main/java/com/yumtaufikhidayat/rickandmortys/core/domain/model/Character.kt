@@ -1,8 +1,6 @@
 package com.yumtaufikhidayat.rickandmortys.core.domain.model
 
 import android.os.Parcelable
-import com.yumtaufikhidayat.rickandmortys.core.data.source.remote.response.Location
-import com.yumtaufikhidayat.rickandmortys.core.data.source.remote.response.Origin
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
