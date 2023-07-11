@@ -40,7 +40,6 @@ class DetailFragment : Fragment() {
 
         handleToolbar()
         getBundleData()
-        setDetailCharacterInformation()
     }
 
     private fun handleToolbar() {
@@ -51,9 +50,10 @@ class DetailFragment : Fragment() {
 
     private fun getBundleData() {
         character = arguments?.getParcelable(EXTRA_DATA)
+        setDetailCharacterInformation(character)
     }
 
-    private fun setDetailCharacterInformation() {
+    private fun setDetailCharacterInformation(character: Character?) {
         binding.apply {
             character?.let { data ->
                 imgCharacter.loadImage(data.image)
@@ -73,6 +73,7 @@ class DetailFragment : Fragment() {
                 setFavoriteCharacter(statusFavorite)
                 toolbarDetail.imgFavorite.setOnClickListener {
                     statusFavorite = !statusFavorite
+                    if (statusFavorite) showToast("Saved to favorite") else showToast("Removed from favorite")
                     viewModel.setFavoriteCharacter(data, statusFavorite)
                     setFavoriteCharacter(statusFavorite)
                 }
@@ -80,19 +81,17 @@ class DetailFragment : Fragment() {
         }
     }
 
-    private fun setFavoriteCharacter(isFavorite: Boolean?) {
+    private fun setFavoriteCharacter(isFavorite: Boolean) {
         binding.toolbarDetail.imgFavorite.apply {
-            if (isFavorite == true) {
-                setImageDrawable(setFavoriteIconInfo(R.drawable.ic_favorite))
-                showToast("Saved to favorite")
+            if (isFavorite) {
+                setImageDrawable(setFavoriteIcon(R.drawable.ic_favorite))
             } else {
-                setImageDrawable(setFavoriteIconInfo(R.drawable.ic_not_favorite))
-                showToast("Removed from favorite")
+                setImageDrawable(setFavoriteIcon(R.drawable.ic_not_favorite))
             }
         }
     }
 
-    private fun setFavoriteIconInfo(icon: Int): Drawable? = ContextCompat.getDrawable(requireContext(), icon)
+    private fun setFavoriteIcon(icon: Int): Drawable? = ContextCompat.getDrawable(requireContext(), icon)
 
     private fun showToast(message: String) {
         Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
