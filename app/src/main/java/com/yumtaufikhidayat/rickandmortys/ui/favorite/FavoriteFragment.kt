@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.yumtaufikhidayat.rickandmortys.R
 import com.yumtaufikhidayat.rickandmortys.databinding.FragmentFavoriteBinding
 import com.yumtaufikhidayat.rickandmortys.ui.home.HomeAdapter
 import com.yumtaufikhidayat.rickandmortys.ui.utils.Common.navigateToDetail
@@ -47,7 +48,14 @@ class FavoriteFragment : Fragment() {
     private fun setFavoriteData() {
         viewModel.favoriteCharacter.observe(viewLifecycleOwner) {
             homeAdapter.submitList(it)
-            binding.layoutError.root.visibility = if (it.isNotEmpty()) View.GONE else View.VISIBLE
+            binding.layoutError.apply {
+                if (it.isNotEmpty()) {
+                    root.visibility = View.GONE
+                } else {
+                    root.visibility = View.VISIBLE
+                    tvErrorDesc.text = getString(R.string.tvEmptyFavorite)
+                }
+            }
         }
     }
 
