@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement favorite." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement show favorite data." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,12 +56,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1689041256" />
+                    <option name="branchName" value="favorite" />
+                    <option name="lastUsedInstant" value="1689041483" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="favorite" />
-                    <option name="lastUsedInstant" value="1689035122" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1689041256" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="clean-architecture" />
@@ -415,7 +415,49 @@
       <option name="project" value="LOCAL" />
       <updated>1689041222594</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Remove unused import">
+      <created>1689041397747</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041397747</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Show saved favorite data.">
+      <created>1689041414914</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041414914</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implement vertical bias position.">
+      <created>1689041777360</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041777360</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add empty favorite strings.">
+      <created>1689041787535</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041787535</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Adjust code for empty favorite data.">
+      <created>1689041801571</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041801571</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Implement show favorite data.">
+      <created>1689041823758</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041823758</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,7 +487,13 @@
     <MESSAGE value="Implement favorite viewModel." />
     <MESSAGE value="Implement favorite UI." />
     <MESSAGE value="Implement favorite." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement favorite." />
+    <MESSAGE value="Remove unused import" />
+    <MESSAGE value="Show saved favorite data." />
+    <MESSAGE value="Implement vertical bias position." />
+    <MESSAGE value="Add empty favorite strings." />
+    <MESSAGE value="Adjust code for empty favorite data." />
+    <MESSAGE value="Implement show favorite data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement show favorite data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
