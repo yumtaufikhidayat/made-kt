@@ -7,14 +7,12 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.yumtaufikhidayat.rickandmortys.R
 import com.yumtaufikhidayat.rickandmortys.core.data.Resource
 import com.yumtaufikhidayat.rickandmortys.databinding.FragmentHomeBinding
 import com.yumtaufikhidayat.rickandmortys.ui.utils.Common.navigateToDetail
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class HomeFragment : Fragment() {
@@ -49,20 +47,18 @@ class HomeFragment : Fragment() {
     }
 
     private fun setData() {
-        lifecycleScope.launch {
-            homeViewModel.character.collect {
-                binding.apply {
-                    when (it) {
-                        is Resource.Loading -> showLoading(true)
-                        is Resource.Success -> {
-                            showLoading(false)
-                            homeAdapter.submitList(it.data)
-                        }
-                        is Resource.Error -> {
-                            showLoading(false)
-                            layoutError.root.isVisible = true
-                            layoutError.tvErrorDesc.text = it.message ?: getString(R.string.tvSomethingWrong)
-                        }
+        homeViewModel.character.observe(viewLifecycleOwner) {
+            binding.apply {
+                when (it) {
+                    is Resource.Loading -> showLoading(true)
+                    is Resource.Success -> {
+                        showLoading(false)
+                        homeAdapter.submitList(it.data)
+                    }
+                    is Resource.Error -> {
+                        showLoading(false)
+                        layoutError.root.isVisible = true
+                        layoutError.tvErrorDesc.text = it.message ?: getString(R.string.tvSomethingWrong)
                     }
                 }
             }
