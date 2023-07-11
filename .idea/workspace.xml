@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement favorite.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement favorite." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,12 +56,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="favorite" />
-                    <option name="lastUsedInstant" value="1689035122" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1689041256" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1689035079" />
+                    <option name="branchName" value="favorite" />
+                    <option name="lastUsedInstant" value="1689035122" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="clean-architecture" />
@@ -389,7 +387,35 @@
       <option name="project" value="LOCAL" />
       <updated>1689035053377</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Implement favorite viewModel.">
+      <created>1689041187200</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041187200</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Implement favorite UI.">
+      <created>1689041206291</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041206291</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Implement favorite.">
+      <created>1689041214175</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041214175</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Implement favorite.">
+      <created>1689041222594</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1689041222594</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -416,6 +442,8 @@
     <MESSAGE value="Add favorite icon into toolbar." />
     <MESSAGE value="Change flow to livedata." />
     <MESSAGE value="Adjust collect to observer." />
+    <MESSAGE value="Implement favorite viewModel." />
+    <MESSAGE value="Implement favorite UI." />
     <MESSAGE value="Implement favorite." />
     <option name="LAST_COMMIT_MESSAGE" value="Implement favorite." />
   </component>
