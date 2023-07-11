@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.favorite.FavoriteFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFavoriteCharacters"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/app_name" />
+        tools:listitem="@layout/item_characters"/>
 
-</FrameLayout>
+    <include
+        android:id="@+id/layoutError"
+        layout="@layout/layout_error"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
