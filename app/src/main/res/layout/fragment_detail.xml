@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                app:layout_constraintGuide_percent=".5"/>
+                app:layout_constraintGuide_percent=".3"/>
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tvCharacterNameTitle"
