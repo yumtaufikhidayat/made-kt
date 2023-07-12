@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement show favorite data." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update string and decrease splash screen delay time.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,12 +38,12 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="clean-architecture" />
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="clean-architecture" />
+        <entry key="$PROJECT_DIR$" value="favorite" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,12 +58,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="favorite" />
-                    <option name="lastUsedInstant" value="1689041483" />
+                    <option name="branchName" value="modularization-library-module" />
+                    <option name="lastUsedInstant" value="1689113946" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1689041256" />
+                    <option name="lastUsedInstant" value="1689042856" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="favorite" />
+                    <option name="lastUsedInstant" value="1689041483" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="clean-architecture" />
