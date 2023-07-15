@@ -1,7 +1,7 @@
 package com.yumtaufikhidayat.rickandmortys.core.di
 
 import com.yumtaufikhidayat.rickandmortys.core.data.source.remote.network.ApiService
-import com.yumtaufikhidayat.rickandmortys.ui.utils.Constants
+import com.yumtaufikhidayat.rickandmortys.core.utils.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

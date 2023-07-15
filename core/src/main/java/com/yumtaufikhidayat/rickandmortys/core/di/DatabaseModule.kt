@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.yumtaufikhidayat.rickandmortys.core.data.source.local.room.CharacterDao
 import com.yumtaufikhidayat.rickandmortys.core.data.source.local.room.CharacterDatabase
-import com.yumtaufikhidayat.rickandmortys.ui.utils.Constants
+import com.yumtaufikhidayat.rickandmortys.core.utils.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil.ItemCallback
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.yumtaufikhidayat.rickandmortys.core.databinding.ItemCharactersBinding
 import com.yumtaufikhidayat.rickandmortys.core.domain.model.Character
-import com.yumtaufikhidayat.rickandmortys.databinding.ItemCharactersBinding
 import com.yumtaufikhidayat.rickandmortys.ui.utils.Common.loadImage
 import com.yumtaufikhidayat.rickandmortys.ui.utils.Common.textStatusColor
 
