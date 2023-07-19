@@ -34,8 +34,13 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        initToolbarTitle()
         setHomeAdapter()
         setData()
+    }
+
+    private fun initToolbarTitle() {
+        binding.toolbarMain.tvToolbar.text = getString(R.string.tvHome)
     }
 
     private fun setHomeAdapter() {
