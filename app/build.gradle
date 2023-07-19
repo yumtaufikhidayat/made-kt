@@ -39,14 +39,31 @@ android {
     buildFeatures {
         viewBinding true
     }
+    dynamicFeatures = [':favorite']
+
+    kapt {
+        correctErrorTypes true
+    }
 }
 
 dependencies {
     implementation project(":core")
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
     // Hilt
-    def hiltVersion = '2.46.1'
+    def hiltVersion = '2.47'
     implementation "com.google.dagger:hilt-android:$hiltVersion"
     kapt "com.google.dagger:hilt-compiler:$hiltVersion"
+
+    // Dagger
+    def daggerVersion = '2.33'
+    api "com.google.dagger:dagger:$daggerVersion"
+    api "com.google.dagger:dagger-android:$daggerVersion"
+}
+
+hilt {
+    enableAggregatingTask = true
 }
