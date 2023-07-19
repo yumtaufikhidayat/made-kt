@@ -45,8 +45,13 @@ class FavoriteFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        initToolbarTitle()
         setFavoriteAdapter()
         setFavoriteData()
+    }
+
+    private fun initToolbarTitle() {
+        binding.toolbarFavorite.tvToolbar.text = getString(R.string.tvFavorite)
     }
 
     private fun setFavoriteAdapter() {
