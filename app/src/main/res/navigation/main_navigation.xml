@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_homeFragment_to_nav_favorite"
             app:destination="@id/nav_favorite" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
@@ -35,4 +38,9 @@
         app:moduleName="favorite"
         app:graphResName="nav_favorite"
         app:graphPackage="${applicationId}.favorite" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.yumtaufikhidayat.rickandmortys.ui.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
 </navigation>
