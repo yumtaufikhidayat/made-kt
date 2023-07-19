@@ -4,7 +4,11 @@
         "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-main-6:/navigation/nav_favorite.xml"
     },
     {
-        "merged": "com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/layout_fragment_bookmark.xml.flat",
-        "source": "com.yumtaufikhidayat.rickandmortys.favorite-main-6:/layout/fragment_bookmark.xml"
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/layout_fragment_favorite.xml.flat",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-main-6:/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/layout_fragment_favorite.xml.flat",
+        "source": "com.yumtaufikhidayat.rickandmortys.favorite-main-6:/layout/fragment_favorite.xml"
     }
 ]

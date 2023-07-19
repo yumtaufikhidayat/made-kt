@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/fragmentFavorite"
-        android:name="com.yumtaufikhidayat.rickandmortys.favorite.ui.Favorite1Fragment"
+        android:name="com.yumtaufikhidayat.rickandmortys.favorite.ui.FavoriteFragment"
         android:label="fragment_favorite" />
 
 </navigation>

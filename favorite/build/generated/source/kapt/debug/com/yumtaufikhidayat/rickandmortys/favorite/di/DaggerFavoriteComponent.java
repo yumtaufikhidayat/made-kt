@@ -1,8 +1,10 @@
 package com.yumtaufikhidayat.rickandmortys.favorite.di;
 
 import android.content.Context;
-import com.yumtaufikhidayat.rickandmortys.core.di.dfm.FavoriteDependencies;
+import com.yumtaufikhidayat.rickandmortys.core.di.dfm.FavoriteModuleDependencies;
 import com.yumtaufikhidayat.rickandmortys.favorite.ui.FavoriteFragment;
+import com.yumtaufikhidayat.rickandmortys.favorite.ui.FavoriteFragment_MembersInjector;
+import com.yumtaufikhidayat.rickandmortys.favorite.ui.factory.ViewModelFactory;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Preconditions;
 import javax.annotation.processing.Generated;
@@ -29,7 +31,7 @@ public final class DaggerFavoriteComponent {
   private static final class Builder implements FavoriteComponent.Builder {
     private Context context;
 
-    private FavoriteDependencies favoriteDependencies;
+    private FavoriteModuleDependencies favoriteModuleDependencies;
 
     @Override
     public Builder context(Context context) {
@@ -38,30 +40,42 @@ public final class DaggerFavoriteComponent {
     }
 
     @Override
-    public Builder create(FavoriteDependencies favoriteDependencies) {
-      this.favoriteDependencies = Preconditions.checkNotNull(favoriteDependencies);
+    public Builder appDependencies(FavoriteModuleDependencies favoriteDependencies) {
+      this.favoriteModuleDependencies = Preconditions.checkNotNull(favoriteDependencies);
       return this;
     }
 
     @Override
     public FavoriteComponent build() {
       Preconditions.checkBuilderRequirement(context, Context.class);
-      Preconditions.checkBuilderRequirement(favoriteDependencies, FavoriteDependencies.class);
-      return new FavoriteComponentImpl(favoriteDependencies, context);
+      Preconditions.checkBuilderRequirement(favoriteModuleDependencies, FavoriteModuleDependencies.class);
+      return new FavoriteComponentImpl(favoriteModuleDependencies, context);
     }
   }
 
   private static final class FavoriteComponentImpl implements FavoriteComponent {
+    private final FavoriteModuleDependencies favoriteModuleDependencies;
+
     private final FavoriteComponentImpl favoriteComponentImpl = this;
 
-    private FavoriteComponentImpl(FavoriteDependencies favoriteDependenciesParam,
+    private FavoriteComponentImpl(FavoriteModuleDependencies favoriteModuleDependenciesParam,
         Context contextParam) {
+      this.favoriteModuleDependencies = favoriteModuleDependenciesParam;
 
+    }
 
+    private ViewModelFactory viewModelFactory() {
+      return new ViewModelFactory(Preconditions.checkNotNullFromComponent(favoriteModuleDependencies.providesCharacterUseCase()));
     }
 
     @Override
     public void inject(FavoriteFragment fragment) {
+      injectFavoriteFragment(fragment);
+    }
+
+    private FavoriteFragment injectFavoriteFragment(FavoriteFragment instance) {
+      FavoriteFragment_MembersInjector.injectFactory(instance, viewModelFactory());
+      return instance;
     }
   }
 }

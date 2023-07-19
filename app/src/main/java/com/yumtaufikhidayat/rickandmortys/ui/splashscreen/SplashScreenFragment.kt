@@ -1,6 +1,5 @@
 package com.yumtaufikhidayat.rickandmortys.ui.splashscreen
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,7 +9,6 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.yumtaufikhidayat.rickandmortys.R
 import com.yumtaufikhidayat.rickandmortys.databinding.FragmentSplashScreenBinding
-import com.yumtaufikhidayat.rickandmortys.ui.MainActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -28,6 +26,11 @@ class SplashScreenFragment : Fragment() {
     ): View {
         _binding = FragmentSplashScreenBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        navigateToMain()
     }
 
     private fun navigateToMain() {

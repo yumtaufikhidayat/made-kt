@@ -1,0 +1,6 @@
+int id fragmentFavorite 0x80010000
+int id layoutError 0x80010001
+int id rvFavoriteCharacters 0x80010002
+int id toolbarMain 0x80010003
+int layout fragment_favorite 0x80020000
+int navigation nav_favorite 0x80030000

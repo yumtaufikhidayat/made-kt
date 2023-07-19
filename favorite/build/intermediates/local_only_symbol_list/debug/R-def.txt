@@ -1,2 +1,8 @@
 R_DEF: Internal format may change without notice
 local
+id fragmentFavorite
+id layoutError
+id rvFavoriteCharacters
+id toolbarMain
+layout fragment_favorite
+navigation nav_favorite
