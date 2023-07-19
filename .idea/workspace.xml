@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update project." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Add double back press to exit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,20 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Update MainActivity.kt class.">
-      <created>1689773184703</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1689773184703</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Implement menu.xml file.">
-      <created>1689773219824</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1689773219824</updated>
     </task>
     <task id="LOCAL-00066" summary="Implement nav_home.xml, nav_favorite.xml, and nav_home.xml.">
       <created>1689773242842</created>
@@ -535,7 +521,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689806654730</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Add double back press to exit.">
+      <created>1689807054483</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1689807054484</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Add double back press to exit.">
+      <created>1689807078573</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1689807078573</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add SplashScreenFragment to main_navigation.xml file." />
     <MESSAGE value="Remove bottom navigation from SplashScreen." />
     <MESSAGE value="Remove SplashActivity.kt file." />
     <MESSAGE value="Add SplashScreenFragment.kt file." />
@@ -575,7 +574,8 @@
     <MESSAGE value="Remove empty favorite string." />
     <MESSAGE value="Add empty favorite string and favorite text." />
     <MESSAGE value="Update project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
+    <MESSAGE value="Add double back press to exit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add double back press to exit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
