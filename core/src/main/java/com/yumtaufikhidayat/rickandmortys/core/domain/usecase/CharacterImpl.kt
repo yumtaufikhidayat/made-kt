@@ -6,7 +6,7 @@ import com.yumtaufikhidayat.rickandmortys.core.domain.repository.ICharacterRepos
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-class CharacterInteractor @Inject constructor(private val characterRepository: ICharacterRepository): CharacterUseCase {
+class CharacterImpl @Inject constructor(private val characterRepository: ICharacterRepository): CharacterUseCase {
     override fun getAllCharacters(): Flow<Resource<List<Character>>> {
         return characterRepository.getAllCharacters()
     }
