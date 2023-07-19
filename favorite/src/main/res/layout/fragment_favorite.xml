@@ -9,7 +9,7 @@
 
     <include
         android:id="@+id/toolbarFavorite"
-        layout="@layout/toolbar_home"/>
+        layout="@layout/toolbar_favorite"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvFavoriteCharacters"

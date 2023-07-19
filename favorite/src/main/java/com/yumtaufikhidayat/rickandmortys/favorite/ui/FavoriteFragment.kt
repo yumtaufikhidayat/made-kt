@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.yumtaufikhidayat.rickandmortys.R
+import com.yumtaufikhidayat.rickandmortys.favorite.R
 import com.yumtaufikhidayat.rickandmortys.favorite.databinding.FragmentFavoriteBinding
 import com.yumtaufikhidayat.rickandmortys.favorite.inject
 import com.yumtaufikhidayat.rickandmortys.favorite.ui.factory.ViewModelFactory
@@ -45,12 +45,9 @@ class FavoriteFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        initToolbarTitle()
         setFavoriteAdapter()
         setFavoriteData()
     }
-
-    private fun initToolbarTitle() = binding.toolbarFavorite.tvToolbar.text == getString(R.string.tvFavorite)
 
     private fun setFavoriteAdapter() {
         binding.rvFavoriteCharacters.apply {

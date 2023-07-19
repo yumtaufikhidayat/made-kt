@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.yumtaufikhidayat.rickandmortys.R
 import com.yumtaufikhidayat.rickandmortys.databinding.FragmentAboutBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -27,12 +26,8 @@ class AboutFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        initToolbarTitle()
         setAboutInfo()
     }
-
-    private fun initToolbarTitle() = binding.toolbarAbout.tvToolbar.text == getString(R.string.tvAbout)
-
 
     private fun setAboutInfo() {
         try {
