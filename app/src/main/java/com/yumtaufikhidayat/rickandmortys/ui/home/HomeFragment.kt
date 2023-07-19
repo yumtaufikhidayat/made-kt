@@ -1,9 +1,13 @@
 package com.yumtaufikhidayat.rickandmortys.ui.home
 
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.activity.OnBackPressedCallback
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -22,6 +26,7 @@ class HomeFragment : Fragment() {
 
     private val homeAdapter by lazy { HomeAdapter { navigateToDetail(it) } }
     private val homeViewModel: HomeViewModel by viewModels()
+    private var doubleBackToExitPressedOnce = false
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -34,8 +39,29 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        requireActivity().onBackPressedDispatcher.addCallback(
+            viewLifecycleOwner,
+            backPressedCallback
+        )
         setHomeAdapter()
         setData()
+    }
+
+    private val backPressedCallback: OnBackPressedCallback = object : OnBackPressedCallback(true) {
+        override fun handleOnBackPressed() {
+            if (doubleBackToExitPressedOnce) {
+                requireActivity().finish()
+                return
+            }
+
+            doubleBackToExitPressedOnce = true
+            Toast.makeText(requireContext(), "Press back again to exit", Toast.LENGTH_SHORT).show()
+
+            Handler(Looper.getMainLooper())
+                .postDelayed({
+                    doubleBackToExitPressedOnce = false
+                }, DELAY_TIME)
+        }
     }
 
     private fun setHomeAdapter() {
@@ -72,5 +98,9 @@ class HomeFragment : Fragment() {
     override fun onDestroyView() {
         _binding = null
         super.onDestroyView()
+    }
+
+    companion object {
+        private const val DELAY_TIME = 2000L
     }
 }
