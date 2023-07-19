@@ -11,7 +11,6 @@
     <string name="tvStatus">Status</string>
     <string name="tvCreatedAt">Created At</string>
     <string name="tvNA">N/A</string>
-    <string name="tvEmptyFavorite">You have no favorite character</string>
     <string name="tvHome">Home</string>
     <string name="tvAbout">About</string>
     <string name="tvAppName">App Name</string>
