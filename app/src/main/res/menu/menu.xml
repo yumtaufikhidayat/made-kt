@@ -10,4 +10,9 @@
         android:enabled="true"
         android:icon="@drawable/nav_favorite"
         android:title="@string/tvFavorite"/>
+    <item
+        android:id="@id/aboutFragment"
+        android:enabled="true"
+        android:icon="@drawable/nav_about"
+        android:title="@string/tvAbout"/>
 </menu>
