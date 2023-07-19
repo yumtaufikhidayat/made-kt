@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/favorite_border/baseline_favorite_border_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialiconsoutlined/emoji_objects/outline_emoji_objects_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -29,7 +29,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="0000ff" />
-                            <entry key="outputName" value="ic_outlline_favorite" />
+                            <entry key="outputName" value="ic_outline_object" />
                           </map>
                         </option>
                       </PersistentState>

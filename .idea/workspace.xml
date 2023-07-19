@@ -9,12 +9,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement app using dynamic feature module.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/splashscreen/SplashScreenFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash_screen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused namespace.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/about/AboutFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_about.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_object.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nav_about.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
@@ -22,174 +22,49 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/splashscreen/SplashActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_error.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/res/layout/layout_error.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/home/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/main_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/main_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/generated/data_binding_base_class_source_out/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/databinding/FragmentBookmarkBinding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/generated/source/kapt/debug/com/yumtaufikhidayat/rickandmortys/favorite/di/DaggerFavoriteComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/generated/source/kapt/debug/com/yumtaufikhidayat/rickandmortys/favorite/di/DaggerFavoriteComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/generated/source/kapt/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment_MembersInjector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/generated/source/kapt/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment_GeneratedInjector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/generated/source/kapt/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/Hilt_FavoriteFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/generated/source/kapt/debug/hilt_aggregated_deps/_com_yumtaufikhidayat_rickandmortys_favorite_di_FavoriteModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/generated/source/kapt/debug/hilt_aggregated_deps/_com_yumtaufikhidayat_rickandmortys_favorite_ui_FavoriteFragment_GeneratedInjector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/aapt_proguard_file/debug/aapt_rules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/aapt_proguard_file/debug/aapt_rules.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/apk/debug/favorite-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/apk/debug/favorite-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/META-INF/favorite_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/classes/debug/transformDebugClassesWithAsm/dirs/META-INF/favorite_debug.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.yumtaufikhidayat.rickandmortys.favorite-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.yumtaufikhidayat.rickandmortys.favorite-binding_classes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/data_binding_layout_info_type_merge/debug/out/fragment_bookmark-layout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/data_binding_layout_info_type_package/debug/out/fragment_bookmark-layout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/bundle_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/bundle_manifest/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/fragment_bookmark.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/fragment_bookmark.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_res/debug/layout_fragment_bookmark.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_res/debug/navigation_nav_favorite.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/merged_res/debug/navigation_nav_favorite.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_res/debug/values_values.arsc.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/navigation_json/debug/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/navigation_json/debug/navigation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/packaged_res/debug/layout/fragment_bookmark.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/packaged_res/debug/navigation/nav_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/packaged_res/debug/navigation/nav_favorite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/CharacterApplication$favoriteComponent$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/CharacterApplication.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/UtilsKt.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/UtilsKt.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/databinding/FragmentBookmarkBinding.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/DaggerFavoriteComponent$Builder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/DaggerFavoriteComponent$Builder.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/DaggerFavoriteComponent$FavoriteComponentImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/DaggerFavoriteComponent$FavoriteComponentImpl.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/DaggerFavoriteComponent.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/DaggerFavoriteComponent.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteComponent$Builder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteComponent$Builder.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteComponent.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteComponent.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteModule.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/BookmarkFragment$Companion.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/BookmarkFragment.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/BookmarkFragmentKt.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$homeAdapter$2$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$homeAdapter$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$sam$androidx_lifecycle_Observer$0.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$setFavoriteData$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$special$$inlined$viewModels$default$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$special$$inlined$viewModels$default$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$special$$inlined$viewModels$default$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$special$$inlined$viewModels$default$4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$special$$inlined$viewModels$default$5.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment$viewModel$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment_MembersInjector.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$homeAdapter$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$homeAdapter$2$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$homeAdapter$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$homeAdapter$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$setFavoriteData$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$setFavoriteData$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment_GeneratedInjector.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/Hilt_FavoriteFragment.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/hilt_aggregated_deps/_com_yumtaufikhidayat_rickandmortys_favorite_di_FavoriteModule.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/hilt_aggregated_deps/_com_yumtaufikhidayat_rickandmortys_favorite_ui_FavoriteFragment_GeneratedInjector.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
@@ -203,10 +78,7 @@
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
@@ -214,17 +86,8 @@
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
@@ -241,51 +104,19 @@
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/outputs/apk/debug/favorite-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/outputs/apk/debug/favorite-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/DaggerFavoriteComponent$Builder.class.uniqueId4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/DaggerFavoriteComponent$FavoriteComponentImpl.class.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/DaggerFavoriteComponent.class.uniqueId6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/Favorite1Fragment_GeneratedInjector.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/Favorite1Fragment_MembersInjector.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/Hilt_Favorite1Fragment.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/_com_yumtaufikhidayat_rickandmortys_favorite_ui_Favorite1Fragment_GeneratedInjector.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/apt-cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/apt-cache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/java-cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/java-cache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incrementalData/debug/META-INF/favorite_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incrementalData/debug/META-INF/favorite_debug.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/CharacterApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/CharacterApplication.kapt_metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/UtilsKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/UtilsKt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/UtilsKt.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/UtilsKt.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteComponent.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteComponent.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/di/FavoriteModule.kapt_metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/BookmarkFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/BookmarkFragment.kapt_metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/BookmarkFragmentKt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/BookmarkFragmentKt.kapt_metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/Favorite1Fragment.kapt_metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kotlin-classes/debug/META-INF/favorite_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kotlin-classes/debug/META-INF/favorite_debug.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/src/main/java/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/src/main/java/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/src/main/res/layout/fragment_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/src/main/res/layout/fragment_favorite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,12 +165,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="modularization-dfm-favorite" />
-                    <option name="lastUsedInstant" value="1689776917" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1689778373" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1689042856" />
+                    <option name="branchName" value="modularization-dfm-favorite" />
+                    <option name="lastUsedInstant" value="1689776917" />
                   </RecentBranch>
                 </list>
               </option>
@@ -467,104 +298,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Implement favorite.">
-      <created>1689035053377</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1689035053377</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Implement favorite viewModel.">
-      <created>1689041187200</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041187200</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Implement favorite UI.">
-      <created>1689041206291</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041206291</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Implement favorite.">
-      <created>1689041214175</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041214175</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Implement favorite.">
-      <created>1689041222594</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041222594</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Remove unused import">
-      <created>1689041397747</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041397747</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Show saved favorite data.">
-      <created>1689041414914</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041414914</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Implement vertical bias position.">
-      <created>1689041777360</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041777360</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Add empty favorite strings.">
-      <created>1689041787535</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041787535</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Adjust code for empty favorite data.">
-      <created>1689041801571</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041801571</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Implement show favorite data.">
-      <created>1689041823758</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1689041823758</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Update guide line percentage to 30% lower.">
-      <created>1689126798471</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1689126798471</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Update guide line percentage to 30% lower.">
-      <created>1689126801103</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1689126801103</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Implement core module.">
-      <created>1689390137975</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1689390137975</updated>
     </task>
     <task id="LOCAL-00044" summary="Implement shared dependencies.">
       <created>1689390158526</created>
@@ -811,7 +544,105 @@
       <option name="project" value="LOCAL" />
       <updated>1689775025891</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Remove activity_splash.xml.">
+      <created>1689777889751</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1689777889752</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Remove SplashActivity.kt from manifest.">
+      <created>1689777904846</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1689777904846</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Add purple_500 color.">
+      <created>1689777939470</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1689777939470</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Remove unused fab.">
+      <created>1689777975600</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1689777975600</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Add SplashScreenFragment.">
+      <created>1689777995400</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1689777995400</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Add SplashScreenFragment to main_navigation.xml file.">
+      <created>1689778029293</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778029293</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Remove bottom navigation from SplashScreen.">
+      <created>1689778054979</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778054979</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Remove SplashActivity.kt file.">
+      <created>1689778070390</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778070390</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Add SplashScreenFragment.kt file.">
+      <created>1689778081580</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778081580</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Add some strings.">
+      <created>1689778103683</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778103683</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Add some values.">
+      <created>1689778123206</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778123206</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Add toolbar.">
+      <created>1689778318490</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778318490</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Update project.">
+      <created>1689778337925</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1689778337925</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Remove unused namespace.">
+      <created>1689779260650</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1689779260650</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -826,20 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement use case module." />
-    <MESSAGE value="Implement red color." />
-    <MESSAGE value="Implement favorite component." />
-    <MESSAGE value="Remove class." />
-    <MESSAGE value="Implement FavoriteFragment" />
-    <MESSAGE value="Implement FavoriteModuleDependencies class." />
-    <MESSAGE value="Implement FavoriteViewModel class." />
-    <MESSAGE value="Implement fragment_favorite.xml class." />
-    <MESSAGE value="Implement fragment_home.xml class." />
-    <MESSAGE value="Update main_navigation.xml file." />
-    <MESSAGE value="Update MainActivity.kt class." />
-    <MESSAGE value="Implement menu.xml file." />
-    <MESSAGE value="Implement nav_home.xml, nav_favorite.xml, and nav_home.xml." />
-    <MESSAGE value="Update strings.xml file in app module." />
     <MESSAGE value="Implement extension function for inject's fragment." />
     <MESSAGE value="Implement ViewModelFactory class." />
     <MESSAGE value="Implement bottom navigation style." />
@@ -851,7 +668,21 @@
     <MESSAGE value="Implement favorite module." />
     <MESSAGE value="Implement FavoriteFragment." />
     <MESSAGE value="Implement app using dynamic feature module." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement app using dynamic feature module." />
+    <MESSAGE value="Remove activity_splash.xml." />
+    <MESSAGE value="Remove SplashActivity.kt from manifest." />
+    <MESSAGE value="Add purple_500 color." />
+    <MESSAGE value="Remove unused fab." />
+    <MESSAGE value="Add SplashScreenFragment." />
+    <MESSAGE value="Add SplashScreenFragment to main_navigation.xml file." />
+    <MESSAGE value="Remove bottom navigation from SplashScreen." />
+    <MESSAGE value="Remove SplashActivity.kt file." />
+    <MESSAGE value="Add SplashScreenFragment.kt file." />
+    <MESSAGE value="Add some strings." />
+    <MESSAGE value="Add some values." />
+    <MESSAGE value="Add toolbar." />
+    <MESSAGE value="Update project." />
+    <MESSAGE value="Remove unused namespace." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused namespace." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
