@@ -6,8 +6,12 @@ dependencies {
     // UI
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.6.0'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.6.0'
+
+    // Navigation Component
+    def navigationVersion = '2.6.0'
+    implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+    implementation "androidx.navigation:navigation-dynamic-features-fragment:$navigationVersion"
 
     // Testing
     testImplementation 'junit:junit:4.13.2'
@@ -36,10 +40,6 @@ dependencies {
     def coroutineVersion = '1.7.1'
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
-
-    // LiveData
-    /*def lifecycleVersion = '2.6.1'
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"*/
 
     // Android KTX
     def activityKtxVersion = "1.7.2"

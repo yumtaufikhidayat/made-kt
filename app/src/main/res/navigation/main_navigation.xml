@@ -3,29 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
-    app:startDestination="@id/splashScreenFragment">
-
-    <fragment
-        android:id="@+id/splashScreenFragment"
-        android:name="com.yumtaufikhidayat.rickandmortys.ui.splashscreen.SplashScreenFragment"
-        android:label="fragment_splash_screen"
-        tools:layout="@layout/fragment_splash_screen" >
-        <action
-            android:id="@+id/action_splashScreenFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.yumtaufikhidayat.rickandmortys.ui.main.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
-        <action
-            android:id="@+id/action_mainFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
-        <action
-            android:id="@+id/action_mainFragment_to_favoriteFragment"
-            app:destination="@id/favoriteFragment" />
-    </fragment>
+    app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.yumtaufikhidayat.rickandmortys.ui.home.HomeFragment"
@@ -34,20 +12,18 @@
         <action
             android:id="@+id/action_homeFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/favoriteFragment"
-        android:name="com.yumtaufikhidayat.rickandmortys.ui.favorite.FavoriteFragment"
-        android:label="fragment_favorite"
-        tools:layout="@layout/fragment_favorite" >
         <action
-            android:id="@+id/action_favoriteFragment_to_detailFragment"
-            app:destination="@id/detailFragment" />
+            android:id="@+id/action_homeFragment_to_nav_favorite"
+            app:destination="@id/nav_favorite" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.yumtaufikhidayat.rickandmortys.ui.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
-
+    <include-dynamic
+        android:id="@+id/nav_favorite"
+        app:moduleName="favorite"
+        app:graphResName="nav_favorite"
+        app:graphPackage="${applicationId}.favorite" />
 </navigation>

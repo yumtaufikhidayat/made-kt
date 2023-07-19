@@ -9,27 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Move core package to core module.">
-      <change afterPath="$PROJECT_DIR$/core/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/androidTest/java/com/yumtaufikhidayat/rickandmortys/core/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/yumtaufikhidayat/rickandmortys/core/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/utils/Constants.kt" afterDir="false" />
-    </list>
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement app using dynamic feature module." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,13 +26,13 @@
       <list>
         <option value="Kotlin Data Class" />
         <option value="Kotlin Sealed Class" />
-        <option value="Kotlin Interface" />
-        <option value="navigationResourceFile" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
-        <option value="resourceFile" />
         <option value="valueResourceFile" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="navigationResourceFile" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -77,20 +57,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="modularization-library-module" />
-                    <option name="lastUsedInstant" value="1689113946" />
+                    <option name="branchName" value="modularization-dfm-favorite-fragment" />
+                    <option name="lastUsedInstant" value="1689664179" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="modularization-dynamic-feature-module" />
+                    <option name="lastUsedInstant" value="1689480447" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1689042856" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="favorite" />
-                    <option name="lastUsedInstant" value="1689041483" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="clean-architecture" />
-                    <option name="lastUsedInstant" value="1688996356" />
                   </RecentBranch>
                 </list>
               </option>
@@ -104,36 +80,49 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2SM9bpF2xzJLoN7FrUve2rhwwG8" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/rizkahidayat/Documents/VersionControl/github/made-kt/app/src/main/java/com/yumtaufikhidayat/rickandmortys",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/app/src/main/res/drawable&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/favorite/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/favorite/src/main/res" />
+      <recent name="$PROJECT_DIR$/favorite/src/main/res/navigation" />
       <recent name="$PROJECT_DIR$/core/src/main/res/layout" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.yumtaufikhidayat.rickandmortys.di" />
+      <recent name="com.yumtaufikhidayat.rickandmortys.di.dfm" />
+      <recent name="com.yumtaufikhidayat.rickandmortys.favorite.di" />
+      <recent name="com.yumtaufikhidayat.rickandmortys.favorite.ui" />
       <recent name="com.yumtaufikhidayat.rickandmortys.ui.utils" />
-      <recent name="com.yumtaufikhidayat.rickandmortys.core.di" />
-      <recent name="com.yumtaufikhidayat.rickandmortys.ui" />
-      <recent name="com.yumtaufikhidayat.rickandmortys.core.utils" />
-      <recent name="com.yumtaufikhidayat.rickandmortys.core.data.source.remote.network" />
+    </key>
+    <key name="android.template.-985699150">
+      <recent name="com.yumtaufikhidayat.rickandmortys.ui.splashscreen" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.yumtaufikhidayat.rickandmortys.favorite.ui.factory" />
     </key>
   </component>
   <component name="RunManager">
@@ -204,209 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Implement project with clean architecture.">
-      <created>1688985189568</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1688985189568</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Implement main toolbar.">
-      <created>1688985934291</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1688985934291</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implement details.">
-      <created>1688995156437</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995156437</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Adjust package placement of ApiService.kt class.">
-      <created>1688995191252</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995191252</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Adjust package placement of CharacterDatabase.kt class.">
-      <created>1688995213718</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995213718</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Adjust package placement of NetworkModule.kt class.">
-      <created>1688995252977</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995252977</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Implement text status color, navigate to detail, and convert date to time.">
-      <created>1688995308807</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995308808</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Add default time constant and adjust some constants.">
-      <created>1688995336186</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995336186</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Adjust package placement of DatabaseModule.kt class.">
-      <created>1688995352798</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995352799</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Move status color to Common.kt class.">
-      <created>1688995382910</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995382910</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Remove toast and implement navigate to detail.">
-      <created>1688995412618</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995412618</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Add arrow back drawable.">
-      <created>1688995421115</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995421115</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Implement some strings.">
-      <created>1688995431859</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995431859</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Implement toolbar detail.">
-      <created>1688995452634</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995452634</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Remove unused namespace and update toolbar's background color.">
-      <created>1688995546953</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995546953</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Update toolbar's background color.">
-      <created>1688995554100</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995554100</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Uncomment colorPrimary and implement new rounded cornet image style.">
-      <created>1688995590436</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995590436</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Remove unused namespace and implement new rounded cornet image style.">
-      <created>1688995606391</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995606391</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Implement details.">
-      <created>1688995623793</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1688995623793</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Update view divider's position.">
-      <created>1688996295969</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1688996295969</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Implement details.">
-      <created>1688996305702</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1688996305702</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Simplify of fragment container view.">
-      <created>1689027460185</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1689027460185</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Implement favorite in DetailFragment class.">
-      <created>1689031653996</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1689031653996</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Implement favorite in DetailFragment class.">
-      <created>1689031661708</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1689031661708</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Add favorite and not favorite icon.">
-      <created>1689031677027</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1689031677027</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Add favorite icon into toolbar.">
-      <created>1689031690797</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1689031690797</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Change flow to livedata.">
-      <created>1689034962447</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1689034962447</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Adjust collect to observer.">
-      <created>1689034979380</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1689034979380</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Implement favorite.">
-      <created>1689035049056</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1689035049056</updated>
     </task>
     <task id="LOCAL-00030" summary="Implement favorite.">
       <created>1689035053377</created>
@@ -520,7 +306,238 @@
       <option name="project" value="LOCAL" />
       <updated>1689390280449</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Remove ic_home.">
+      <created>1689676631381</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1689676631381</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Remove SplashScreenFragment.kt and fragment_splash_screen.xml file.">
+      <created>1689676663941</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1689676663941</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Remove fragment_main.xml, MainFragment.kt, and MainPagerAdapter.kt file.">
+      <created>1689676691155</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689676691155</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Remove fragment_main.xml, MainFragment.kt, and MainPagerAdapter.kt file.">
+      <created>1689676775583</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1689676775583</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Update UI using bottom navigation view.">
+      <created>1689772498325</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772498325</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Remove app module.">
+      <created>1689772545598</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772545598</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Implement bottom navigation selector.">
+      <created>1689772570471</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772570471</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Rename class to CharacterImpl.">
+      <created>1689772588827</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772588827</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Implement use case module.">
+      <created>1689772617503</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772617503</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Implement red color.">
+      <created>1689772644263</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772644263</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Implement favorite component.">
+      <created>1689772670714</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772670714</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Remove class.">
+      <created>1689772711298</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772711298</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Implement FavoriteFragment">
+      <created>1689772722804</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772722804</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Implement FavoriteModuleDependencies class.">
+      <created>1689772748053</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772748053</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Implement FavoriteViewModel class.">
+      <created>1689772768439</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1689772768439</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Implement fragment_favorite.xml class.">
+      <created>1689773092812</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773092812</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Implement fragment_home.xml class.">
+      <created>1689773101782</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773101782</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Update main_navigation.xml file.">
+      <created>1689773171854</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773171855</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Update MainActivity.kt class.">
+      <created>1689773184703</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773184703</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Implement menu.xml file.">
+      <created>1689773219824</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773219824</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Implement nav_home.xml, nav_favorite.xml, and nav_home.xml.">
+      <created>1689773242842</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773242843</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Update strings.xml file in app module.">
+      <created>1689773331573</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773331573</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Implement extension function for inject's fragment.">
+      <created>1689773384345</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773384345</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Implement ViewModelFactory class.">
+      <created>1689773413410</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773413410</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Implement bottom navigation style.">
+      <created>1689773460543</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773460543</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Implement some icons.">
+      <created>1689773475769</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1689773475769</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Implement activity_splash.xml file.">
+      <created>1689774351765</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774351765</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Implement SplashActivity in AndroidManifest.xml file.">
+      <created>1689774374037</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774374037</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Implement AndroidManifest.xml on favorite module.">
+      <created>1689774392067</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774392067</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Update build.gradle in module: app and core.">
+      <created>1689774908983</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774908983</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Implement favorite module.">
+      <created>1689774932472</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774932472</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Implement FavoriteFragment.">
+      <created>1689774959959</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774959959</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Implement app using dynamic feature module.">
+      <created>1689775025891</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1689775025891</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,31 +552,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initialize project." />
-    <MESSAGE value="Implement project with clean architecture." />
-    <MESSAGE value="Implement main toolbar." />
-    <MESSAGE value="Add new status color." />
-    <MESSAGE value="Update view divider's position." />
-    <MESSAGE value="Implement details." />
-    <MESSAGE value="Simplify of fragment container view." />
-    <MESSAGE value="Implement favorite in DetailFragment class." />
-    <MESSAGE value="Add favorite and not favorite icon." />
-    <MESSAGE value="Add favorite icon into toolbar." />
-    <MESSAGE value="Change flow to livedata." />
-    <MESSAGE value="Adjust collect to observer." />
-    <MESSAGE value="Implement favorite viewModel." />
-    <MESSAGE value="Implement favorite UI." />
-    <MESSAGE value="Implement favorite." />
-    <MESSAGE value="Remove unused import" />
-    <MESSAGE value="Show saved favorite data." />
-    <MESSAGE value="Implement vertical bias position." />
-    <MESSAGE value="Add empty favorite strings." />
-    <MESSAGE value="Adjust code for empty favorite data." />
-    <MESSAGE value="Implement show favorite data." />
-    <MESSAGE value="Update guide line percentage to 30% lower." />
-    <MESSAGE value="Implement core module." />
-    <MESSAGE value="Implement shared dependencies." />
-    <MESSAGE value="Move core package to core module." />
-    <option name="LAST_COMMIT_MESSAGE" value="Move core package to core module." />
+    <MESSAGE value="Implement use case module." />
+    <MESSAGE value="Implement red color." />
+    <MESSAGE value="Implement favorite component." />
+    <MESSAGE value="Remove class." />
+    <MESSAGE value="Implement FavoriteFragment" />
+    <MESSAGE value="Implement FavoriteModuleDependencies class." />
+    <MESSAGE value="Implement FavoriteViewModel class." />
+    <MESSAGE value="Implement fragment_favorite.xml class." />
+    <MESSAGE value="Implement fragment_home.xml class." />
+    <MESSAGE value="Update main_navigation.xml file." />
+    <MESSAGE value="Update MainActivity.kt class." />
+    <MESSAGE value="Implement menu.xml file." />
+    <MESSAGE value="Implement nav_home.xml, nav_favorite.xml, and nav_home.xml." />
+    <MESSAGE value="Update strings.xml file in app module." />
+    <MESSAGE value="Implement extension function for inject's fragment." />
+    <MESSAGE value="Implement ViewModelFactory class." />
+    <MESSAGE value="Implement bottom navigation style." />
+    <MESSAGE value="Implement some icons." />
+    <MESSAGE value="Implement activity_splash.xml file." />
+    <MESSAGE value="Implement SplashActivity in AndroidManifest.xml file." />
+    <MESSAGE value="Implement AndroidManifest.xml on favorite module." />
+    <MESSAGE value="Update build.gradle in module: app and core." />
+    <MESSAGE value="Implement favorite module." />
+    <MESSAGE value="Implement FavoriteFragment." />
+    <MESSAGE value="Implement app using dynamic feature module." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement app using dynamic feature module." />
   </component>
 </project>

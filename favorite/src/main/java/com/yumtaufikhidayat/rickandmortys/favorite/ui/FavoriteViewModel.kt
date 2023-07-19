@@ -1,4 +1,4 @@
-package com.yumtaufikhidayat.rickandmortys.ui.favorite
+package com.yumtaufikhidayat.rickandmortys.favorite.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
