@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         navController?.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {
                 R.id.detailFragment -> showHideBottomNavigation(false)
+                R.id.splashScreenFragment -> showHideBottomNavigation(false)
                 else -> showHideBottomNavigation(true)
             }
         }
