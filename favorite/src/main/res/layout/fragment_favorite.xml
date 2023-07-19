@@ -8,7 +8,7 @@
     tools:context=".favorite.ui.FavoriteFragment">
 
     <include
-        android:id="@+id/toolbarMain"
+        android:id="@+id/toolbarFavorite"
         layout="@layout/toolbar_home"/>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         tools:listitem="@layout/item_characters"
-        app:layout_constraintTop_toBottomOf="@id/toolbarMain"
+        app:layout_constraintTop_toBottomOf="@id/toolbarFavorite"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
     <include
