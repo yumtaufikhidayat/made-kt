@@ -1,4 +1,4 @@
-#Thu Jul 20 05:40:44 WIB 2023
+#Thu Jul 20 05:50:49 WIB 2023
 base.0=/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.1=/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
 base.2=/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
