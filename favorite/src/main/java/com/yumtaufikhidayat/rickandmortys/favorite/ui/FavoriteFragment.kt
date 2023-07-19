@@ -50,9 +50,7 @@ class FavoriteFragment : Fragment() {
         setFavoriteData()
     }
 
-    private fun initToolbarTitle() {
-        binding.toolbarFavorite.tvToolbar.text = getString(R.string.tvFavorite)
-    }
+    private fun initToolbarTitle() = binding.toolbarFavorite.tvToolbar.text == getString(R.string.tvFavorite)
 
     private fun setFavoriteAdapter() {
         binding.rvFavoriteCharacters.apply {

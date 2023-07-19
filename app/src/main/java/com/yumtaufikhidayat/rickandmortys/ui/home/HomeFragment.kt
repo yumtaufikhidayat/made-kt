@@ -39,9 +39,7 @@ class HomeFragment : Fragment() {
         setData()
     }
 
-    private fun initToolbarTitle() {
-        binding.toolbarMain.tvToolbar.text = getString(R.string.tvHome)
-    }
+    private fun initToolbarTitle() = binding.toolbarMain.tvToolbar.text == getString(R.string.tvHome)
 
     private fun setHomeAdapter() {
         binding.rvCharacters.apply {
