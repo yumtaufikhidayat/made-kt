@@ -3,6 +3,6 @@ local
 id fragmentFavorite
 id layoutError
 id rvFavoriteCharacters
-id toolbarMain
+id toolbarFavorite
 layout fragment_favorite
 navigation nav_favorite
