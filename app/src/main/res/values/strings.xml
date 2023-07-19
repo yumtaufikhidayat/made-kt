@@ -13,5 +13,5 @@
     <string name="tvNA">N/A</string>
     <string name="tvEmptyFavorite">You have no favorite character</string>
     <string name="tvHome">Home</string>
-    <string name="title_favorite">Favorite</string>
+    <string name="tvAbout">About</string>
 </resources>
