@@ -32,17 +32,5 @@
         android:id="@+id/layoutError"
         layout="@layout/layout_error"
         android:visibility="gone" />
-<!--
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabMovie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:contentDescription="@string/tvFavorite"
-        android:backgroundTint="@color/purple_700"
-        android:src="@drawable/ic_favorite"
-        app:tint="@color/colorRed"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
