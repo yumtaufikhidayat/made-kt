@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tvFavorite">Favorite</string>
+    <string name="tvEmptyFavorite">You have no favorite character</string>
+</resources>
