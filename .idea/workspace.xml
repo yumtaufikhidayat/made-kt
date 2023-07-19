@@ -9,43 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement some icons.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yumtaufikhidayat/rickandmortys/ui/splashscreen/SplashActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favorite/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favorite/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favorite/src/androidTest/java/com/yumtaufikhidayat/rickandmortys/favorite/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favorite/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favorite/src/test/java/com/yumtaufikhidayat/rickandmortys/favorite/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/shared_dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/shared_dependencies.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/src/main/java/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/src/main/java/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Implement app using dynamic feature module." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,55 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Implement favorite in DetailFragment class.">
-      <created>1689031653996</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1689031653996</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Implement favorite in DetailFragment class.">
-      <created>1689031661708</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1689031661708</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Add favorite and not favorite icon.">
-      <created>1689031677027</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1689031677027</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Add favorite icon into toolbar.">
-      <created>1689031690797</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1689031690797</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Change flow to livedata.">
-      <created>1689034962447</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1689034962447</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Adjust collect to observer.">
-      <created>1689034979380</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1689034979380</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Implement favorite.">
-      <created>1689035049056</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1689035049056</updated>
     </task>
     <task id="LOCAL-00030" summary="Implement favorite.">
       <created>1689035053377</created>
@@ -573,7 +488,56 @@
       <option name="project" value="LOCAL" />
       <updated>1689773475769</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Implement activity_splash.xml file.">
+      <created>1689774351765</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774351765</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Implement SplashActivity in AndroidManifest.xml file.">
+      <created>1689774374037</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774374037</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Implement AndroidManifest.xml on favorite module.">
+      <created>1689774392067</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774392067</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Update build.gradle in module: app and core.">
+      <created>1689774908983</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774908983</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Implement favorite module.">
+      <created>1689774932472</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774932472</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Implement FavoriteFragment.">
+      <created>1689774959959</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774959959</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Implement app using dynamic feature module.">
+      <created>1689775025891</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1689775025891</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,13 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove ic_home." />
-    <MESSAGE value="Remove SplashScreenFragment.kt and fragment_splash_screen.xml file." />
-    <MESSAGE value="Remove fragment_main.xml, MainFragment.kt, and MainPagerAdapter.kt file." />
-    <MESSAGE value="Update UI using bottom navigation view." />
-    <MESSAGE value="Remove app module." />
-    <MESSAGE value="Implement bottom navigation selector." />
-    <MESSAGE value="Rename class to CharacterImpl." />
     <MESSAGE value="Implement use case module." />
     <MESSAGE value="Implement red color." />
     <MESSAGE value="Implement favorite component." />
@@ -613,6 +570,13 @@
     <MESSAGE value="Implement ViewModelFactory class." />
     <MESSAGE value="Implement bottom navigation style." />
     <MESSAGE value="Implement some icons." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement some icons." />
+    <MESSAGE value="Implement activity_splash.xml file." />
+    <MESSAGE value="Implement SplashActivity in AndroidManifest.xml file." />
+    <MESSAGE value="Implement AndroidManifest.xml on favorite module." />
+    <MESSAGE value="Update build.gradle in module: app and core." />
+    <MESSAGE value="Implement favorite module." />
+    <MESSAGE value="Implement FavoriteFragment." />
+    <MESSAGE value="Implement app using dynamic feature module." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement app using dynamic feature module." />
   </component>
 </project>
