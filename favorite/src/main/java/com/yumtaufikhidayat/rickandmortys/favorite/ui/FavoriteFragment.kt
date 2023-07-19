@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.yumtaufikhidayat.rickandmortys.R
-import com.yumtaufikhidayat.rickandmortys.databinding.FragmentFavoriteBinding
+import com.yumtaufikhidayat.rickandmortys.favorite.databinding.FragmentFavoriteBinding
 import com.yumtaufikhidayat.rickandmortys.favorite.inject
 import com.yumtaufikhidayat.rickandmortys.favorite.ui.factory.ViewModelFactory
 import com.yumtaufikhidayat.rickandmortys.ui.home.HomeAdapter
