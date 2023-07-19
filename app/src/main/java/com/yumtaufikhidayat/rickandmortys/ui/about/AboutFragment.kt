@@ -1,5 +1,6 @@
 package com.yumtaufikhidayat.rickandmortys.ui.about
 
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -27,10 +28,20 @@ class AboutFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         initToolbarTitle()
+        setAboutInfo()
     }
 
-    private fun initToolbarTitle() {
-        binding.toolbarAbout.tvToolbar.text = getString(R.string.tvAbout)
+    private fun initToolbarTitle() = binding.toolbarAbout.tvToolbar.text == getString(R.string.tvAbout)
+
+
+    private fun setAboutInfo() {
+        try {
+            val pInfo = activity?.packageManager?.getPackageInfo(activity?.packageName.toString(), 0)
+            val appVersion = pInfo?.versionName
+            binding.tvAppVersion.text = appVersion
+        } catch (e: PackageManager.NameNotFoundException) {
+            e.printStackTrace()
+        }
     }
 
     override fun onDestroyView() {
