@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused imports.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused imports." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,34 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Implement extension function for inject's fragment.">
-      <created>1689773384345</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1689773384345</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Implement ViewModelFactory class.">
-      <created>1689773413410</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1689773413410</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Implement bottom navigation style.">
-      <created>1689773460543</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1689773460543</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Implement some icons.">
-      <created>1689773475769</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1689773475769</updated>
     </task>
     <task id="LOCAL-00072" summary="Implement activity_splash.xml file.">
       <created>1689774351765</created>
@@ -537,7 +507,35 @@
       <option name="project" value="LOCAL" />
       <updated>1689808364139</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Remove unused namespace.">
+      <created>1689816265160</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1689816265161</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Remove unused imports.">
+      <created>1689816276868</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1689816276868</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Remove unused functions.">
+      <created>1689816476751</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1689816476751</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Remove unused imports.">
+      <created>1689816499352</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1689816499352</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove SplashActivity.kt file." />
     <MESSAGE value="Add SplashScreenFragment.kt file." />
     <MESSAGE value="Add some strings." />
     <MESSAGE value="Add some values." />
@@ -576,6 +573,7 @@
     <MESSAGE value="Update project." />
     <MESSAGE value="Add double back press to exit." />
     <MESSAGE value="Remove unused namespace." />
+    <MESSAGE value="Remove unused functions." />
     <MESSAGE value="Remove unused imports." />
     <option name="LAST_COMMIT_MESSAGE" value="Remove unused imports." />
   </component>
