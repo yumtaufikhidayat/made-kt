@@ -1,5 +1,5 @@
 # made-kt
-Repository to complete submission of Menjadi Android Developer Expert class from Dicoding. This project using these tech stacks:
+This repository aim to complete submission of Menjadi Android Developer Expert class from Dicoding. The application called Rick and Morty's which is consume the API from [The Rick and Morty API](https://rickandmortyapi.com/). This project using these tech stacks:
 
 - Kotlin
 - Retrofit
