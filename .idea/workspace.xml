@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Add double back press to exit." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused imports.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -191,20 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Implement nav_home.xml, nav_favorite.xml, and nav_home.xml.">
-      <created>1689773242842</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1689773242843</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Update strings.xml file in app module.">
-      <created>1689773331573</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1689773331573</updated>
     </task>
     <task id="LOCAL-00068" summary="Implement extension function for inject's fragment.">
       <created>1689773384345</created>
@@ -535,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689807078573</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Remove unused namespace.">
+      <created>1689808344172</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1689808344172</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Remove unused imports.">
+      <created>1689808364139</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1689808364139</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,13 +552,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove bottom navigation from SplashScreen." />
     <MESSAGE value="Remove SplashActivity.kt file." />
     <MESSAGE value="Add SplashScreenFragment.kt file." />
     <MESSAGE value="Add some strings." />
     <MESSAGE value="Add some values." />
     <MESSAGE value="Add toolbar." />
-    <MESSAGE value="Remove unused namespace." />
     <MESSAGE value="Update AndroidManifest.xml files." />
     <MESSAGE value="Update toolbar title." />
     <MESSAGE value="Change toolbar's id." />
@@ -575,7 +575,9 @@
     <MESSAGE value="Add empty favorite string and favorite text." />
     <MESSAGE value="Update project." />
     <MESSAGE value="Add double back press to exit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add double back press to exit." />
+    <MESSAGE value="Remove unused namespace." />
+    <MESSAGE value="Remove unused imports." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused imports." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
