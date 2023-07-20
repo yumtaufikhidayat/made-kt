@@ -1,7 +1,7 @@
-com.yumtaufikhidayat.rickandmortys.favorite-pngs-0 /Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/build/generated/res/pngs/debug
-com.yumtaufikhidayat.rickandmortys.favorite-resValues-1 /Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/build/generated/res/resValues/debug
-com.yumtaufikhidayat.rickandmortys.favorite-packageDebugResources-2 /Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.yumtaufikhidayat.rickandmortys.favorite-packageDebugResources-3 /Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4 /Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/build/intermediates/merged_res/debug
-com.yumtaufikhidayat.rickandmortys.favorite-debug-5 /Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/debug/res
-com.yumtaufikhidayat.rickandmortys.favorite-main-6 /Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/res
+com.yumtaufikhidayat.rickandmortys.favorite-pngs-0 /Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/build/generated/res/pngs/debug
+com.yumtaufikhidayat.rickandmortys.favorite-resValues-1 /Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/build/generated/res/resValues/debug
+com.yumtaufikhidayat.rickandmortys.favorite-packageDebugResources-2 /Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.yumtaufikhidayat.rickandmortys.favorite-packageDebugResources-3 /Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4 /Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/build/intermediates/merged_res/debug
+com.yumtaufikhidayat.rickandmortys.favorite-debug-5 /Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/debug/res
+com.yumtaufikhidayat.rickandmortys.favorite-main-6 /Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/res

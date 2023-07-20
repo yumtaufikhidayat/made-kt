@@ -8,25 +8,25 @@
 8
 9    <uses-sdk
 10        android:minSdkVersion="26"
-10-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml
+10-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml
 11        android:targetSdkVersion="26" />
-11-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml
+11-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml
 12
 13    <dist:module
-13-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml:4:5-11:19
+13-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml:4:5-11:19
 14        dist:instant="false"
-14-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml:5:9-29
+14-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml:5:9-29
 15        dist:title="@string/tvFavorite" >
-15-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml:6:9-40
+15-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml:6:9-40
 16        <dist:delivery>
-16-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml:7:9-9:25
+16-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml:7:9-9:25
 17            <dist:install-time />
-17-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml:8:13-34
+17-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml:8:13-34
 18        </dist:delivery>
 19
 20        <dist:fusing dist:include="true" />
-20-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml:10:9-44
-20-->/Users/rizkahidayat/Documents/VersionControl/github/made/made-kt/favorite/src/main/AndroidManifest.xml:10:22-41
+20-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml:10:9-44
+20-->/Users/rizkahidayat/Documents/VersionControl/github/made-kt/favorite/src/main/AndroidManifest.xml:10:22-41
 21    </dist:module>
 22
 23    <application android:extractNativeLibs="false" />

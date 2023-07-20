@@ -1,22 +1,14 @@
 [
     {
-        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/navigation_nav_favorite.xml.flat",
-        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-main-6:/navigation/nav_favorite.xml"
-    },
-    {
-        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/layout_toolbar_favorite.xml.flat",
-        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-main-6:/layout/toolbar_favorite.xml"
-    },
-    {
         "merged": "com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/layout_toolbar_favorite.xml.flat",
         "source": "com.yumtaufikhidayat.rickandmortys.favorite-main-6:/layout/toolbar_favorite.xml"
     },
     {
-        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/layout_toolbar_home.xml.flat",
-        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-main-6:/layout/toolbar_home.xml"
+        "merged": "com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/layout_fragment_favorite.xml.flat",
+        "source": "com.yumtaufikhidayat.rickandmortys.favorite-main-6:/layout/fragment_favorite.xml"
     },
     {
-        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/layout_fragment_favorite.xml.flat",
-        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.rickandmortys.favorite-main-6:/layout/fragment_favorite.xml"
+        "merged": "com.yumtaufikhidayat.rickandmortys.favorite-merged_res-4:/navigation_nav_favorite.xml.flat",
+        "source": "com.yumtaufikhidayat.rickandmortys.favorite-main-6:/navigation/nav_favorite.xml"
     }
 ]
