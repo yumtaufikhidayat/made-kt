@@ -3,7 +3,7 @@
 [![Language](https://img.shields.io/badge/language-Kotlin-blue)](https://github.com/yumtaufikhidayat/gitser-kt/blob/main/build.gradle)
 [![MinSdk](https://img.shields.io/badge/minsdk-26-red)](https://github.com/yumtaufikhidayat/gitser-kt/blob/main/build.gradle)
 
-> This app built to accomplish Menjadi Android Developer Expert course which be held by dicoding.com. Please be wise to clone and learn the flow of app. You are not allowed to copy/create derivatives/steal/sell this program codes.
+> This app built to accomplish Menjadi Android Developer Expert course which be held by [Dicoding Indonesia](https://dicoding.com). Please be wise to clone and learn the flow of the app. You are not allowed to copy/derivative/steal/sell this program codes.
 
 Rick and Morty's is a simple Android application to show characters from Rick and Morty TV Show. You can see the character photo, name, status, species, and its detail of each character. This application consumes the API from [The Rick and Morty API](https://rickandmortyapi.com/).
 
