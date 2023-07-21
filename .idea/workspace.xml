@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Add screen shoot of the UI app.">
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update README.md file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="modularization-dfm-favorite-fragment" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,12 +59,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1689778373" />
+                    <option name="branchName" value="submission1-clean-architecture" />
+                    <option name="lastUsedInstant" value="1689893156" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="modularization-dfm-favorite" />
-                    <option name="lastUsedInstant" value="1689776917" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1689893092" />
                   </RecentBranch>
                 </list>
               </option>
@@ -193,20 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Implement favorite module.">
-      <created>1689774932472</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1689774932472</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Implement FavoriteFragment.">
-      <created>1689774959959</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1689774959959</updated>
     </task>
     <task id="LOCAL-00078" summary="Implement app using dynamic feature module.">
       <created>1689775025891</created>
@@ -537,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689833763576</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Update project.">
+      <created>1689892880363</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1689892880363</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Update README.md file.">
+      <created>1689892990610</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1689892990611</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,15 +569,15 @@
     <MESSAGE value="Update toolbar." />
     <MESSAGE value="Remove empty favorite string." />
     <MESSAGE value="Add empty favorite string and favorite text." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Add double back press to exit." />
     <MESSAGE value="Remove unused namespace." />
     <MESSAGE value="Remove unused functions." />
     <MESSAGE value="Remove unused imports." />
     <MESSAGE value="Remove duplicate UI components." />
-    <MESSAGE value="Update README.md file." />
     <MESSAGE value="Add screen shoot of the UI app." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add screen shoot of the UI app." />
+    <MESSAGE value="Update project." />
+    <MESSAGE value="Update README.md file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
