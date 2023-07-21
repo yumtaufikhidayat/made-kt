@@ -18,11 +18,10 @@ import javax.inject.Inject
 
 class FavoriteFragment : Fragment() {
 
-    private var _binding: FragmentFavoriteBinding? = null
-    private val binding get() = _binding!!
+    private lateinit var binding: FragmentFavoriteBinding
 
     @Inject
-    lateinit var factory : ViewModelFactory
+    lateinit var factory: ViewModelFactory
     private val viewModel by viewModels<FavoriteViewModel> {
         factory
     }
@@ -38,7 +37,7 @@ class FavoriteFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentFavoriteBinding.inflate(inflater, container, false)
+        binding = FragmentFavoriteBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -69,10 +68,5 @@ class FavoriteFragment : Fragment() {
                 }
             }
         }
-    }
-
-    override fun onDestroyView() {
-        _binding = null
-        super.onDestroyView()
     }
 }

@@ -21,9 +21,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class HomeFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
-    private val binding get() = _binding!!
-
+    private lateinit var binding: FragmentHomeBinding
     private val homeAdapter by lazy { HomeAdapter { navigateToDetail(it) } }
     private val homeViewModel: HomeViewModel by viewModels()
     private var doubleBackToExitPressedOnce = false
@@ -32,7 +30,7 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -93,11 +91,6 @@ class HomeFragment : Fragment() {
 
     private fun showLoading(isShow: Boolean) {
         binding.pbLoading.isVisible = isShow
-    }
-
-    override fun onDestroyView() {
-        _binding = null
-        super.onDestroyView()
     }
 
     companion object {

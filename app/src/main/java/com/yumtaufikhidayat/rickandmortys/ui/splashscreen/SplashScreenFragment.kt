@@ -17,14 +17,13 @@ import kotlin.time.Duration.Companion.seconds
 @AndroidEntryPoint
 class SplashScreenFragment : Fragment() {
 
-    private var _binding: FragmentSplashScreenBinding? = null
-    private val binding get() = _binding!!
+    private lateinit var binding: FragmentSplashScreenBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentSplashScreenBinding.inflate(inflater, container, false)
+        binding = FragmentSplashScreenBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -41,10 +40,5 @@ class SplashScreenFragment : Fragment() {
                 navigate(R.id.homeFragment)
             }
         }
-    }
-
-    override fun onDestroyView() {
-        _binding = null
-        super.onDestroyView()
     }
 }

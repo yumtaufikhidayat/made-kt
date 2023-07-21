@@ -12,14 +12,13 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class AboutFragment : Fragment() {
 
-    private var _binding: FragmentAboutBinding? = null
-    private val binding get() = _binding!!
+    private lateinit var binding: FragmentAboutBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentAboutBinding.inflate(inflater, container, false)
+        binding = FragmentAboutBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -37,10 +36,5 @@ class AboutFragment : Fragment() {
         } catch (e: PackageManager.NameNotFoundException) {
             e.printStackTrace()
         }
-    }
-
-    override fun onDestroyView() {
-        _binding = null
-        super.onDestroyView()
     }
 }
