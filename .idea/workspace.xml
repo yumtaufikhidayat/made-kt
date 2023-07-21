@@ -9,15 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update README.md file.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused imports." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -193,20 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Implement app using dynamic feature module.">
-      <created>1689775025891</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1689775025891</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Remove activity_splash.xml.">
-      <created>1689777889751</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1689777889752</updated>
     </task>
     <task id="LOCAL-00080" summary="Remove SplashActivity.kt from manifest.">
       <created>1689777904846</created>
@@ -537,7 +521,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689892990611</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Adjust binding init using lateinit.">
+      <created>1689902213354</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1689902213354</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Remove unused imports.">
+      <created>1689902227452</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1689902227452</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add toolbar." />
     <MESSAGE value="Update AndroidManifest.xml files." />
     <MESSAGE value="Update toolbar title." />
     <MESSAGE value="Change toolbar's id." />
@@ -572,12 +569,13 @@
     <MESSAGE value="Add double back press to exit." />
     <MESSAGE value="Remove unused namespace." />
     <MESSAGE value="Remove unused functions." />
-    <MESSAGE value="Remove unused imports." />
     <MESSAGE value="Remove duplicate UI components." />
     <MESSAGE value="Add screen shoot of the UI app." />
     <MESSAGE value="Update project." />
     <MESSAGE value="Update README.md file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md file." />
+    <MESSAGE value="Adjust binding init using lateinit." />
+    <MESSAGE value="Remove unused imports." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused imports." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
