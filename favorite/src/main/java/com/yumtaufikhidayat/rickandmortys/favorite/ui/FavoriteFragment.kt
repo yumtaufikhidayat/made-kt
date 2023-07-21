@@ -61,12 +61,18 @@ class FavoriteFragment : Fragment() {
             homeAdapter.submitList(it)
             binding.layoutError.apply {
                 if (it.isNotEmpty()) {
-                    root.visibility = View.GONE
+                    showError(true, "")
                 } else {
-                    root.visibility = View.VISIBLE
-                    tvErrorDesc.text = getString(R.string.tvEmptyFavorite)
+                    showError(false, getString(R.string.tvEmptyFavorite))
                 }
             }
+        }
+    }
+
+    private fun showError(isVisible: Boolean, message: String) {
+        binding.layoutError.apply {
+            root.visibility = if (isVisible) View.GONE else View.VISIBLE
+            tvErrorDesc.text = message
         }
     }
 }
