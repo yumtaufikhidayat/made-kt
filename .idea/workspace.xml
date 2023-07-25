@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused imports." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Improve code for showing error visibility.">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,12 +60,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="submission1-clean-architecture" />
-                    <option name="lastUsedInstant" value="1689893156" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1689902322" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1689893092" />
+                    <option name="branchName" value="submission1-clean-architecture" />
+                    <option name="lastUsedInstant" value="1689893156" />
                   </RecentBranch>
                 </list>
               </option>
@@ -83,20 +86,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/rizkahidayat/Documents/VersionControl/github/made-kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rizkahidayat/Documents/VersionControl/github/made-kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/favorite/src/main/res/layout" />
@@ -191,20 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Remove SplashActivity.kt from manifest.">
-      <created>1689777904846</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1689777904846</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Add purple_500 color.">
-      <created>1689777939470</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1689777939470</updated>
     </task>
     <task id="LOCAL-00082" summary="Remove unused fab.">
       <created>1689777975600</created>
@@ -535,7 +524,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689902227452</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Remove unused imports.">
+      <created>1689902301813</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1689902301813</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Improve code for showing error visibility.">
+      <created>1689902596050</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1689902596050</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update AndroidManifest.xml files." />
     <MESSAGE value="Update toolbar title." />
     <MESSAGE value="Change toolbar's id." />
     <MESSAGE value="Update home icon." />
@@ -575,7 +577,8 @@
     <MESSAGE value="Update README.md file." />
     <MESSAGE value="Adjust binding init using lateinit." />
     <MESSAGE value="Remove unused imports." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused imports." />
+    <MESSAGE value="Improve code for showing error visibility." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve code for showing error visibility." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
