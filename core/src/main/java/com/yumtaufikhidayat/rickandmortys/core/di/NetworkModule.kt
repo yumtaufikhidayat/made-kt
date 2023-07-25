@@ -1,5 +1,6 @@
 package com.yumtaufikhidayat.rickandmortys.core.di
 
+import com.yumtaufikhidayat.rickandmortys.core.BuildConfig
 import com.yumtaufikhidayat.rickandmortys.core.data.source.remote.network.ApiService
 import com.yumtaufikhidayat.rickandmortys.core.utils.Constants
 import dagger.Module
@@ -18,8 +19,9 @@ object NetworkModule {
 
     @Provides
     fun provideOkHttpClient(): OkHttpClient {
+        val loggingInterceptor = if (BuildConfig.DEBUG) HttpLoggingInterceptor.Level.BODY else HttpLoggingInterceptor.Level.NONE
         return OkHttpClient.Builder()
-            .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
+            .addInterceptor(HttpLoggingInterceptor().setLevel(loggingInterceptor))
             .connectTimeout(120, TimeUnit.SECONDS)
             .readTimeout(120, TimeUnit.SECONDS)
             .build()
