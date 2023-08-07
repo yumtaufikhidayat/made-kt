@@ -12,9 +12,9 @@ Rick and Morty's is a simple Android application to show characters from Rick an
 |:-------------------------------------------------------------------------:|:-----------------------------------------------------------------:|:-------------------------------------------------------------------:|
 |                              *Splash Screen*                              |                              *Home*                               |                              *Detail*                               |
 
-| <img src=favorite.jpeg  align="center" height="600" width="248" ></a> | <img src=no_favorite.jpeg  align="center" height="600" width="248" ></a> | <img src=about.jpeg  align="center" height="600" width="248" ></a> |
-|:---------------------------------------------------------------------:|:------------------------------------------------------------------------:|:------------------------------------------------------------------:|
-|                              *Favorite*                               |                              *No Favorite*                               |                              *About*                               |
+| <img src=favorites.jpeg  align="center" height="600" width="248" ></a> | <img src=no_favorites.jpeg  align="center" height="600" width="248" ></a> | <img src=about.jpeg  align="center" height="600" width="248" ></a> |
+|:----------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------:|
+|                               *Favorite*                               |                               *No Favorite*                               |                              *About*                               |
 
 ### Tech Stacks
 This project built using these tech stacks:
