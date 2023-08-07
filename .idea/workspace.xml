@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update project." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update favorite and no favorite screenshot." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,20 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Update home icon.">
-      <created>1689804534801</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804534801</updated>
-    </task>
-    <task id="LOCAL-00098" summary="Add nav_about.xml file.">
-      <created>1689804550232</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804550232</updated>
     </task>
     <task id="LOCAL-00099" summary="Add about menu.">
       <created>1689804558829</created>
@@ -561,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691450368293</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Update project.">
+      <created>1691450484387</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450484387</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Update favorite and no favorite screenshot.">
+      <created>1691450742764</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450742764</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add about icons." />
     <MESSAGE value="Add about fragment to main_navigation.xml file." />
     <MESSAGE value="Add about string." />
     <MESSAGE value="Adjust toolbar text title using tools." />
@@ -601,7 +600,8 @@
     <MESSAGE value="Add empty json to assets folder." />
     <MESSAGE value="Add empty view lottie animation." />
     <MESSAGE value="Update project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
+    <MESSAGE value="Update favorite and no favorite screenshot." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update favorite and no favorite screenshot." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
