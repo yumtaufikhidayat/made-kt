@@ -6,6 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieEmptyBox"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="empty.json"
+        app:lottie_loop="true"
+        app:layout_constraintVertical_bias=".45"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvErrorTitle"
         android:layout_width="wrap_content"
@@ -14,9 +28,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintVertical_bias=".45"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieEmptyBox"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -24,8 +36,8 @@
         android:id="@+id/tvErrorDesc"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:textAlignment="center"
+        android:layout_marginHorizontal="16dp"
+        android:gravity="center"
         tools:text="@tools:sample/lorem"
         app:layout_constraintTop_toBottomOf="@id/tvErrorTitle"
         app:layout_constraintStart_toStartOf="parent"
