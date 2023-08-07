@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Enabling build config configuration.">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update project." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feat/favorite" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +58,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1689902322" />
+                    <option name="lastUsedInstant" value="1691450396" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/favorite" />
+                    <option name="lastUsedInstant" value="1691449639" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="submission1-clean-architecture" />
@@ -217,41 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00092" summary="Remove unused namespace.">
-      <created>1689779260650</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1689779260650</updated>
-    </task>
-    <task id="LOCAL-00093" summary="Update AndroidManifest.xml files.">
-      <created>1689804464094</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804464094</updated>
-    </task>
-    <task id="LOCAL-00094" summary="Update toolbar title.">
-      <created>1689804487088</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804487088</updated>
-    </task>
-    <task id="LOCAL-00095" summary="Update toolbar title.">
-      <created>1689804492349</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804492349</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Change toolbar's id.">
-      <created>1689804513253</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804513253</updated>
     </task>
     <task id="LOCAL-00097" summary="Update home icon.">
       <created>1689804534801</created>
@@ -561,7 +526,42 @@
       <option name="project" value="LOCAL" />
       <updated>1690321449185</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Update project.">
+      <created>1691449608041</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1691449608041</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Add lottie dependency.">
+      <created>1691450318925</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450318925</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Add empty json to assets folder.">
+      <created>1691450333403</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450333403</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Add empty view lottie animation.">
+      <created>1691450357080</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450357081</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Update project.">
+      <created>1691450368293</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450368293</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,9 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add nav_about.xml file." />
-    <MESSAGE value="Add about menu." />
-    <MESSAGE value="Add about UI." />
     <MESSAGE value="Add about icons." />
     <MESSAGE value="Add about fragment to main_navigation.xml file." />
     <MESSAGE value="Add about string." />
@@ -597,11 +594,14 @@
     <MESSAGE value="Adjust binding init using lateinit." />
     <MESSAGE value="Remove unused imports." />
     <MESSAGE value="Improve code for showing error visibility." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Update project target and compile sdk to 34." />
     <MESSAGE value="Update network module using build config." />
     <MESSAGE value="Enabling build config configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enabling build config configuration." />
+    <MESSAGE value="Add lottie dependency." />
+    <MESSAGE value="Add empty json to assets folder." />
+    <MESSAGE value="Add empty view lottie animation." />
+    <MESSAGE value="Update project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
