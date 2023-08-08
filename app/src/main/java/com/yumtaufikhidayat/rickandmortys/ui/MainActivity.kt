@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
         binding.navBottom.isVisible = isShow
     }
 
-    override fun onDestroy() {
+    override fun onStop() {
+        super.onStop()
         navController = null
-        super.onDestroy()
     }
 }
