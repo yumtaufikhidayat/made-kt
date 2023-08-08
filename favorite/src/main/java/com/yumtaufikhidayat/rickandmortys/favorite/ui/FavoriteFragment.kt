@@ -18,7 +18,8 @@ import javax.inject.Inject
 
 class FavoriteFragment : Fragment() {
 
-    private lateinit var binding: FragmentFavoriteBinding
+    private var _binding: FragmentFavoriteBinding? = null
+    private val binding get() = _binding!!
 
     @Inject
     lateinit var factory: ViewModelFactory
@@ -26,7 +27,7 @@ class FavoriteFragment : Fragment() {
         factory
     }
 
-    private val homeAdapter by lazy { HomeAdapter { navigateToDetail(it) } }
+    private var homeAdapter: HomeAdapter? = null
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -37,7 +38,7 @@ class FavoriteFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentFavoriteBinding.inflate(inflater, container, false)
+        _binding = FragmentFavoriteBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -49,6 +50,9 @@ class FavoriteFragment : Fragment() {
     }
 
     private fun setFavoriteAdapter() {
+        homeAdapter = HomeAdapter {
+            navigateToDetail(it)
+        }
         binding.rvFavoriteCharacters.apply {
             layoutManager = LinearLayoutManager(requireContext())
             setHasFixedSize(true)
@@ -58,7 +62,7 @@ class FavoriteFragment : Fragment() {
 
     private fun setFavoriteData() {
         viewModel.favoriteCharacter.observe(viewLifecycleOwner) {
-            homeAdapter.submitList(it)
+            homeAdapter?.submitList(it)
             binding.layoutError.apply {
                 if (it.isNotEmpty()) {
                     showError(true, "")
@@ -74,5 +78,11 @@ class FavoriteFragment : Fragment() {
             root.visibility = if (isVisible) View.GONE else View.VISIBLE
             tvErrorDesc.text = message
         }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+        homeAdapter = null
     }
 }

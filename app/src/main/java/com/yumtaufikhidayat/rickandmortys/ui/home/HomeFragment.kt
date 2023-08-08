@@ -23,8 +23,10 @@ import kotlin.time.Duration.Companion.seconds
 @AndroidEntryPoint
 class HomeFragment : Fragment() {
 
-    private lateinit var binding: FragmentHomeBinding
-    private val homeAdapter by lazy { HomeAdapter { navigateToDetail(it) } }
+    private var _binding: FragmentHomeBinding? = null
+    private val binding get() = _binding!!
+
+    private var homeAdapter: HomeAdapter? = null
     private val homeViewModel: HomeViewModel by viewModels()
     private var doubleBackToExitPressedOnce = false
 
@@ -32,7 +34,7 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -65,10 +67,15 @@ class HomeFragment : Fragment() {
     }
 
     private fun setHomeAdapter() {
-        binding.rvCharacters.apply {
-            layoutManager = LinearLayoutManager(requireContext())
-            setHasFixedSize(true)
-            adapter = homeAdapter
+        homeAdapter = HomeAdapter {
+            navigateToDetail(it)
+        }
+        binding.apply {
+            with(rvCharacters) {
+                layoutManager = LinearLayoutManager(requireContext())
+                setHasFixedSize(true)
+                adapter = homeAdapter
+            }
         }
     }
 
@@ -79,7 +86,7 @@ class HomeFragment : Fragment() {
                     is Resource.Loading -> showLoading(true)
                     is Resource.Success -> {
                         showLoading(false)
-                        homeAdapter.submitList(it.data)
+                        homeAdapter?.submitList(it.data)
                     }
                     is Resource.Error -> {
                         showLoading(false)
@@ -93,5 +100,12 @@ class HomeFragment : Fragment() {
 
     private fun showLoading(isShow: Boolean) {
         binding.pbLoading.isVisible = isShow
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+        homeAdapter = null
+        doubleBackToExitPressedOnce = false
     }
 }
