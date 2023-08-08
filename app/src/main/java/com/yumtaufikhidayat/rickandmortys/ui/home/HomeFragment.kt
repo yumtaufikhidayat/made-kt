@@ -11,12 +11,16 @@ import androidx.activity.OnBackPressedCallback
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.yumtaufikhidayat.rickandmortys.R
 import com.yumtaufikhidayat.rickandmortys.core.data.Resource
 import com.yumtaufikhidayat.rickandmortys.databinding.FragmentHomeBinding
 import com.yumtaufikhidayat.rickandmortys.ui.utils.Common.navigateToDetail
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlin.time.Duration.Companion.seconds
 
 @AndroidEntryPoint
 class HomeFragment : Fragment() {
@@ -55,10 +59,10 @@ class HomeFragment : Fragment() {
             doubleBackToExitPressedOnce = true
             Toast.makeText(requireContext(), "Press back again to exit", Toast.LENGTH_SHORT).show()
 
-            Handler(Looper.getMainLooper())
-                .postDelayed({
-                    doubleBackToExitPressedOnce = false
-                }, DELAY_TIME)
+            lifecycleScope.launch {
+                delay(2.seconds)
+                doubleBackToExitPressedOnce = false
+            }
         }
     }
 
@@ -91,9 +95,5 @@ class HomeFragment : Fragment() {
 
     private fun showLoading(isShow: Boolean) {
         binding.pbLoading.isVisible = isShow
-    }
-
-    companion object {
-        private const val DELAY_TIME = 2000L
     }
 }
