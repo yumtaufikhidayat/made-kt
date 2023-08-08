@@ -8,5 +8,5 @@ object Constants {
     // DB
     const val DB_NAME = "RickAndMortys.db"
     const val DB_VERSION = 1
-
+    const val ENCRYPTED_DB_PASSPHRASE = "rickandmortys"
 }

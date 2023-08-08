@@ -23,13 +23,14 @@ object DatabaseModule {
     fun provideDatabase(
         @ApplicationContext context: Context
     ): CharacterDatabase {
-        val passphrase: ByteArray = SQLiteDatabase.getBytes("rickandmortys".toCharArray())
+        val passphrase: ByteArray = SQLiteDatabase.getBytes(Constants.ENCRYPTED_DB_PASSPHRASE.toCharArray())
         val factory = SupportFactory(passphrase)
         return Room.databaseBuilder(
             context = context,
             klass = CharacterDatabase::class.java,
             name = Constants.DB_NAME
-        ).openHelperFactory(factory).build()
+        ).fallbackToDestructiveMigration()
+            .openHelperFactory(factory).build()
     }
 
     @Provides
