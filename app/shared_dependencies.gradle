@@ -31,19 +31,19 @@ dependencies {
 
     // Retrofit + OkHttp
     def retrofitVersion = '2.9.0'
-    def loggingInterceptorVersion = '4.8.0'
+    def loggingInterceptorVersion = '4.11.0'
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.squareup.okhttp3:logging-interceptor:$loggingInterceptorVersion"
 
     // Coroutine
-    def coroutineVersion = '1.7.1'
+    def coroutineVersion = '1.7.3'
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
 
     // Android KTX
     def activityKtxVersion = "1.7.2"
-    def fragmentKtxVersion = "1.6.0"
+    def fragmentKtxVersion = "1.6.1"
     implementation "androidx.activity:activity-ktx:$activityKtxVersion"
     implementation "androidx.fragment:fragment-ktx:$fragmentKtxVersion"
 }
