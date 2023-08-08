@@ -10,6 +10,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import net.sqlcipher.database.SQLiteDatabase
+import net.sqlcipher.database.SupportFactory
 import javax.inject.Singleton
 
 @Module
@@ -20,10 +22,15 @@ object DatabaseModule {
     @Provides
     fun provideDatabase(
         @ApplicationContext context: Context
-    ): CharacterDatabase = Room.databaseBuilder(
-        context,
-        CharacterDatabase::class.java, Constants.DB_NAME
-    ).fallbackToDestructiveMigration().build()
+    ): CharacterDatabase {
+        val passphrase: ByteArray = SQLiteDatabase.getBytes("rickandmortys".toCharArray())
+        val factory = SupportFactory(passphrase)
+        return Room.databaseBuilder(
+            context = context,
+            klass = CharacterDatabase::class.java,
+            name = Constants.DB_NAME
+        ).openHelperFactory(factory).build()
+    }
 
     @Provides
     fun provideTourismDao(database: CharacterDatabase): CharacterDao = database.characterDao()
