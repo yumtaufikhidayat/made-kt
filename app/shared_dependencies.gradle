@@ -46,4 +46,7 @@ dependencies {
     def fragmentKtxVersion = "1.6.1"
     implementation "androidx.activity:activity-ktx:$activityKtxVersion"
     implementation "androidx.fragment:fragment-ktx:$fragmentKtxVersion"
+
+    // LeakCanary
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.10'
 }
