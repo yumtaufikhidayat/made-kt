@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
@@ -9,15 +12,51 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update favorite and no favorite screenshot.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Change onDestroy using onStop to fix memory leak.">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/yumtaufikhidayat/rickandmortys/core/di/DatabaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/yumtaufikhidayat/rickandmortys/core/di/DatabaseModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_2/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_2/graph.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/graph.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$homeAdapter$2$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$homeAdapter$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$setFavoriteData$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment$setFavoriteData$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/intermediates/project_dex_archive/debug/out/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build/tmp/kapt3/stubs/debug/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kapt_metadata" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[10DD4D095R000CK]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -44,7 +83,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/favorite" />
+        <entry key="$PROJECT_DIR$" value="feat/perform-leak-canary" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,12 +98,20 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1691450396" />
+                    <option name="branchName" value="feat/security-database-encryption" />
+                    <option name="lastUsedInstant" value="1691495329" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="feat/favorite" />
-                    <option name="lastUsedInstant" value="1691449639" />
+                    <option name="branchName" value="feat/perform-leak-canary" />
+                    <option name="lastUsedInstant" value="1691488924" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1691488666" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feat/perform-inspection-code" />
+                    <option name="lastUsedInstant" value="1691486776" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="submission1-clean-architecture" />
@@ -219,83 +266,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00100" summary="Add about UI.">
-      <created>1689804570722</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804570722</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Add about icons.">
-      <created>1689804583376</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804583376</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Add about fragment to main_navigation.xml file.">
-      <created>1689804600694</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804600694</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Add about string.">
-      <created>1689804614843</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804614843</updated>
-    </task>
-    <task id="LOCAL-00104" summary="Adjust toolbar text title using tools.">
-      <created>1689804637916</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804637916</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Update project.">
-      <created>1689804769612</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1689804769612</updated>
-    </task>
-    <task id="LOCAL-00106" summary="Adjust return toolbar title function using single expression return.">
-      <created>1689805525742</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1689805525742</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Implement UI and set app version to about fragment.">
-      <created>1689805550634</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1689805550634</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Implement UI and set app version to about fragment.">
-      <created>1689805574824</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1689805574824</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Update toolbar.">
-      <created>1689806593417</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1689806593417</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Remove empty favorite string.">
-      <created>1689806632007</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1689806632007</updated>
     </task>
     <task id="LOCAL-00111" summary="Add empty favorite string and favorite text.">
       <created>1689806642536</created>
@@ -563,7 +533,84 @@
       <option name="project" value="LOCAL" />
       <updated>1691450797403</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Update favorite and no favorite screenshot.">
+      <created>1691450908467</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450908467</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Update screenshot file name on README.md file.">
+      <created>1691450928689</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1691450928689</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Upgrade compile sdk and remove tools:context.">
+      <created>1691487038361</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487038362</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Remove unused colors and string resources.">
+      <created>1691487115338</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487115338</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Change handler using delay and Coroutine.">
+      <created>1691487234113</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487234113</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Update project and remove unused imports.">
+      <created>1691487285920</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1691487285920</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Update some dependencies version.">
+      <created>1691488287817</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1691488287817</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Add leak canary dependency and implementation leak canary.">
+      <created>1691488641648</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1691488641648</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Adjust lateinit var using nullable variable.">
+      <created>1691495254483</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1691495254483</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Change onDestroy using onStop to fix memory leak.">
+      <created>1691495275827</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1691495275827</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Change onDestroy using onStop to fix memory leak.">
+      <created>1691495285159</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1691495285159</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,15 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add about fragment to main_navigation.xml file." />
-    <MESSAGE value="Add about string." />
-    <MESSAGE value="Adjust toolbar text title using tools." />
-    <MESSAGE value="Adjust return toolbar title function using single expression return." />
-    <MESSAGE value="Implement UI and set app version to about fragment." />
-    <MESSAGE value="Update toolbar." />
-    <MESSAGE value="Remove empty favorite string." />
-    <MESSAGE value="Add empty favorite string and favorite text." />
-    <MESSAGE value="Add double back press to exit." />
     <MESSAGE value="Remove unused namespace." />
     <MESSAGE value="Remove unused functions." />
     <MESSAGE value="Remove duplicate UI components." />
@@ -603,7 +641,16 @@
     <MESSAGE value="Add empty view lottie animation." />
     <MESSAGE value="Update project." />
     <MESSAGE value="Update favorite and no favorite screenshot." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update favorite and no favorite screenshot." />
+    <MESSAGE value="Update screenshot file name on README.md file." />
+    <MESSAGE value="Upgrade compile sdk and remove tools:context." />
+    <MESSAGE value="Remove unused colors and string resources." />
+    <MESSAGE value="Change handler using delay and Coroutine." />
+    <MESSAGE value="Update project and remove unused imports." />
+    <MESSAGE value="Update some dependencies version." />
+    <MESSAGE value="Add leak canary dependency and implementation leak canary." />
+    <MESSAGE value="Adjust lateinit var using nullable variable." />
+    <MESSAGE value="Change onDestroy using onStop to fix memory leak." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change onDestroy using onStop to fix memory leak." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
