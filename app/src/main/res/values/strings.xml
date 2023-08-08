@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Rick and Morty\'s</string>
-    <string name="tvCharacters">Characters</string>
     <string name="tvFavorite">Favorite</string>
     <string name="tvOops">Oops!…</string>
     <string name="tvSomethingWrong">Something went wrong…</string>
@@ -10,7 +9,6 @@
     <string name="tvGender">Gender</string>
     <string name="tvStatus">Status</string>
     <string name="tvCreatedAt">Created At</string>
-    <string name="tvNA">N/A</string>
     <string name="tvHome">Home</string>
     <string name="tvAbout">About</string>
     <string name="tvAppName">App Name</string>
