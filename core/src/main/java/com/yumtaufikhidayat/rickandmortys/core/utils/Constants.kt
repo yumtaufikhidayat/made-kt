@@ -7,6 +7,7 @@ object Constants {
 
     // Web URL
     const val WEB_URL = "rickandmortyapi.com"
+    const val CERTIFICATE_PINNER = "sha256/jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0="
 
     // DB
     const val DB_NAME = "RickMortys.db"

@@ -26,7 +26,7 @@ object NetworkModule {
             HttpLoggingInterceptor.Level.NONE
 
         val certificatePinner = CertificatePinner.Builder()
-            .add(Constants.WEB_URL, "sha256/jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0=")
+            .add(Constants.WEB_URL, Constants.CERTIFICATE_PINNER)
             .build()
 
         return OkHttpClient.Builder()
