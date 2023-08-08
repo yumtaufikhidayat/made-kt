@@ -54,6 +54,10 @@ dependencies {
     // Lottie
     def lottieVersion = '6.0.0'
     implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    // Encryption
+    implementation "net.zetetic:android-database-sqlcipher:4.4.2"
+    implementation "androidx.sqlite:sqlite-ktx:2.3.1"
 }
 hilt {
     enableAggregatingTask = true
