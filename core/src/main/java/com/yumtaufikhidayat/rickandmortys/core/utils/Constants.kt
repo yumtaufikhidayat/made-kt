@@ -6,7 +6,7 @@ object Constants {
     const val GET_CHARACTER = "character"
 
     // DB
-    const val DB_NAME = "RickMorty.db"
+    const val DB_NAME = "RickAndMortys.db"
     const val DB_VERSION = 1
 
 }
