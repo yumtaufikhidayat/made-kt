@@ -9,7 +9,7 @@ apply from: '../app/shared_dependencies.gradle'
 
 android {
     namespace 'com.yumtaufikhidayat.rickandmortys.favorite'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 26
