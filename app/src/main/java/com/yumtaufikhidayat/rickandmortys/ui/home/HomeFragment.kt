@@ -1,9 +1,7 @@
 package com.yumtaufikhidayat.rickandmortys.ui.home
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.core.view.isVisible
@@ -11,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+import by.kirich1409.viewbindingdelegate.viewBinding
 import com.yumtaufikhidayat.rickandmortys.R
 import com.yumtaufikhidayat.rickandmortys.core.data.Resource
 import com.yumtaufikhidayat.rickandmortys.databinding.FragmentHomeBinding
@@ -21,22 +20,12 @@ import kotlinx.coroutines.launch
 import kotlin.time.Duration.Companion.seconds
 
 @AndroidEntryPoint
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(R.layout.fragment_home) {
 
-    private var _binding: FragmentHomeBinding? = null
-    private val binding get() = _binding!!
-
+    private val binding by viewBinding<FragmentHomeBinding>()
     private var homeAdapter: HomeAdapter? = null
     private val homeViewModel: HomeViewModel by viewModels()
     private var doubleBackToExitPressedOnce = false
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        return binding.root
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -104,8 +93,15 @@ class HomeFragment : Fragment() {
 
     override fun onDestroy() {
         super.onDestroy()
-        _binding = null
         homeAdapter = null
+        binding.rvCharacters.adapter = null
+        doubleBackToExitPressedOnce = false
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        homeAdapter = null
+        binding.rvCharacters.adapter = null
         doubleBackToExitPressedOnce = false
     }
 }
