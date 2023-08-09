@@ -1,1 +1,0 @@
-:favorite::debug;Capability: group='Rick and Morty's', name='favorite'

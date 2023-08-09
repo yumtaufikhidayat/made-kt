@@ -17,6 +17,8 @@ import javax.inject.Inject
 
 class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
 
+    /*private var _binding: FragmentFavoriteBinding? = null
+    private val binding get() = _binding!!*/
     private val binding by viewBinding<FragmentFavoriteBinding>()
 
     @Inject
@@ -31,6 +33,15 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
         super.onAttach(context)
         inject()
     }
+
+    /*override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentFavoriteBinding.inflate(inflater, container, false)
+        return binding.root
+    }*/
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -71,7 +82,8 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
     }
 
     override fun onDestroyView() {
-        super.onDestroyView()
+//        _binding = null
         homeAdapter = null
+        super.onDestroyView()
     }
 }

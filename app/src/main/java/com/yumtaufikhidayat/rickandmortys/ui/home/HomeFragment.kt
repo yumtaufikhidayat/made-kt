@@ -22,10 +22,22 @@ import kotlin.time.Duration.Companion.seconds
 @AndroidEntryPoint
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
+    /*private var _binding: FragmentHomeBinding? = null
+    private val binding get() = _binding!!*/
+
     private val binding by viewBinding<FragmentHomeBinding>()
     private var homeAdapter: HomeAdapter? = null
     private val homeViewModel: HomeViewModel by viewModels()
     private var doubleBackToExitPressedOnce = false
+
+    /*override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        return binding.root
+    }*/
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -93,6 +105,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onDestroy() {
         super.onDestroy()
+//        _binding = null
         homeAdapter = null
         binding.rvCharacters.adapter = null
         doubleBackToExitPressedOnce = false
@@ -100,6 +113,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onDestroyView() {
         super.onDestroyView()
+//        _binding = null
         homeAdapter = null
         binding.rvCharacters.adapter = null
         doubleBackToExitPressedOnce = false
