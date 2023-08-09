@@ -7,15 +7,23 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
+import by.kirich1409.viewbindingdelegate.viewBinding
 import com.yumtaufikhidayat.rickandmortys.R
 import com.yumtaufikhidayat.rickandmortys.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
-    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private val binding by viewBinding(ActivityMainBinding::bind, R.id.constraintMain)
     private var navController: NavController? = null
+    private val navControllerDestination = NavController.OnDestinationChangedListener { _, destination, _ ->
+        when (destination.id) {
+            R.id.detailFragment -> showBottomNavigation(false)
+            R.id.splashScreenFragment -> showBottomNavigation(false)
+            else -> showBottomNavigation(true)
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,21 +40,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUpNavigationDestination() {
-        navController?.addOnDestinationChangedListener { _, destination, _ ->
-            when (destination.id) {
-                R.id.detailFragment -> showHideBottomNavigation(false)
-                R.id.splashScreenFragment -> showHideBottomNavigation(false)
-                else -> showHideBottomNavigation(true)
-            }
-        }
+        navController?.addOnDestinationChangedListener(navControllerDestination)
     }
 
-    private fun showHideBottomNavigation(isShow: Boolean) {
+    private fun showBottomNavigation(isShow: Boolean) {
         binding.navBottom.isVisible = isShow
     }
 
-    override fun onStop() {
-        super.onStop()
+    override fun onDestroy() {
+        navController?.removeOnDestinationChangedListener(navControllerDestination)
         navController = null
+        super.onDestroy()
     }
 }
