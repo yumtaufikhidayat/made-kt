@@ -12,7 +12,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update gitignore.">
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update content of gitignore file.">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/android.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/android.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -247,34 +248,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Add screen shoot of the UI app.">
-      <created>1689833758054</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1689833758054</updated>
-    </task>
-    <task id="LOCAL-00124" summary="Add screen shoot of the UI app.">
-      <created>1689833763576</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1689833763576</updated>
-    </task>
-    <task id="LOCAL-00125" summary="Update project.">
-      <created>1689892880363</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1689892880363</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Update README.md file.">
-      <created>1689892990610</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1689892990611</updated>
     </task>
     <task id="LOCAL-00127" summary="Adjust binding init using lateinit.">
       <created>1689902213354</created>
@@ -591,7 +564,35 @@
       <option name="project" value="LOCAL" />
       <updated>1691587476145</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="Update project.">
+      <created>1691642558320</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1691642558321</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Update project.">
+      <created>1691642636873</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1691642636873</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Update content of gitignore file.">
+      <created>1691642669675</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1691642669675</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Update content of gitignore file.">
+      <created>1691642674829</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1691642674829</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -616,7 +617,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Enabling build config configuration." />
     <MESSAGE value="Add lottie dependency." />
     <MESSAGE value="Add empty json to assets folder." />
     <MESSAGE value="Add empty view lottie animation." />
@@ -639,9 +639,10 @@
     <MESSAGE value="Add id to root view." />
     <MESSAGE value="Add obfuscation proguard rule." />
     <MESSAGE value="Update navControllerDestination becomes object variable." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Update gitignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore." />
+    <MESSAGE value="Update project." />
+    <MESSAGE value="Update content of gitignore file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update content of gitignore file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
