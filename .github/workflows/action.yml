@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Lint Check
     steps:
-      - uses: ./.github/actions/action.yml
+      - uses: ./.github/workflows/action.yml
       - name: Checkout the code
-        uses: ./.github/actions/action.yml
+        uses: ./.github/workflows/action.yml
       
       - name: Run lint
         run: ./gradlew lintDebug
