@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: ./.github/actions/actions@checkout@v2
       - name: Checkout the code
-        uses: ./.github/actions/my-action
+        uses: ./.github/actions/android.yml
       
       - name: Run lint
         run: ./gradlew lintDebug
