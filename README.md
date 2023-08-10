@@ -1,4 +1,5 @@
 # made-kt
+[![Rick and Morty's](https://github.com/yumtaufikhidayat/made-kt/actions/workflows/main.yml/badge.svg)](https://github.com/yumtaufikhidayat/made-kt/actions/workflows/main.yml)
 [![Platform](https://img.shields.io/badge/platform-Android-green)](https://github.com/yumtaufikhidayat/gitser-kt/blob/main/build.gradle)
 [![Language](https://img.shields.io/badge/language-Kotlin-blue)](https://github.com/yumtaufikhidayat/gitser-kt/blob/main/build.gradle)
 [![MinSdk](https://img.shields.io/badge/minsdk-26-red)](https://github.com/yumtaufikhidayat/gitser-kt/blob/main/build.gradle)
