@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Lint Check
     steps:
-      - uses: ./.github/actions/actions@checkout@v2
+      - uses: ./.github/actions/android.yml
       - name: Checkout the code
         uses: ./.github/actions/android.yml
       
