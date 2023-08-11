@@ -48,7 +48,8 @@ dependencies {
     implementation "androidx.fragment:fragment-ktx:$fragmentKtxVersion"
 
     // LeakCanary
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.10'
+    def leakCanaryVersion = "2.12"
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakCanaryVersion"
 
     // ViewBinding Property Delegate
     def viewBindingVersion = '1.5.9'
