@@ -15,4 +15,6 @@
     <string name="tvVersion">Version</string>
     <string name="tvDeveloper">Developer</string>
     <string name="tvDeveloperName">Taufik Hidayat</string>
+    <string name="tvSavedToFavorite">Saved to favorite</string>
+    <string name="tvRemovedToFavorite">Removed to favorite</string>
 </resources>

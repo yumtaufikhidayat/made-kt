@@ -63,7 +63,10 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
                 setFavoriteCharacter(statusFavorite)
                 toolbarDetail.imgFavorite.setOnClickListener {
                     statusFavorite = !statusFavorite
-                    if (statusFavorite) showToast("Saved to favorite") else showToast("Removed from favorite")
+                    if (statusFavorite)
+                        showToast(getString(R.string.tvSavedToFavorite))
+                    else
+                        showToast(getString(R.string.tvRemovedToFavorite))
                     viewModel.setFavoriteCharacter(data, statusFavorite)
                     setFavoriteCharacter(statusFavorite)
                 }
