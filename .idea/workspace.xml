@@ -12,10 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update android.yml file.">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/action.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Move hardcoded string to string resource and update DetailFragment's toast." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/security-obfuscation" />
+        <entry key="$PROJECT_DIR$" value="submission2-capstone-akhir" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,23 +67,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1691587602" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/performance-leak-canary" />
-                    <option name="lastUsedInstant" value="1691546381" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/security-obfuscation" />
-                    <option name="lastUsedInstant" value="1691500486" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/security-ssl-pinning" />
-                    <option name="lastUsedInstant" value="1691499161" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="feat/security-database-encryption" />
-                    <option name="lastUsedInstant" value="1691495329" />
+                    <option name="lastUsedInstant" value="1691657754" />
                   </RecentBranch>
                 </list>
               </option>
@@ -248,34 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Update project target and compile sdk to 34.">
-      <created>1690268688646</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1690268688646</updated>
-    </task>
-    <task id="LOCAL-00135" summary="Update network module using build config.">
-      <created>1690321341324</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1690321341325</updated>
-    </task>
-    <task id="LOCAL-00136" summary="Enabling build config configuration.">
-      <created>1690321396047</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1690321396047</updated>
-    </task>
-    <task id="LOCAL-00137" summary="Enabling build config configuration.">
-      <created>1690321400175</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1690321400175</updated>
     </task>
     <task id="LOCAL-00138" summary="Enabling build config configuration.">
       <created>1690321408819</created>
@@ -592,7 +545,35 @@
       <option name="project" value="LOCAL" />
       <updated>1691644338402</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="Change application icon.">
+      <created>1691658468904</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1691658468904</updated>
+    </task>
+    <task id="LOCAL-00184" summary="Add Github Action's badge.">
+      <created>1691658490370</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1691658490370</updated>
+    </task>
+    <task id="LOCAL-00185" summary="Update leak canary version to 2.12.">
+      <created>1691730163813</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1691730163813</updated>
+    </task>
+    <task id="LOCAL-00186" summary="Move hardcoded string to string resource and update DetailFragment's toast.">
+      <created>1691730290403</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1691730290403</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -617,10 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add empty json to assets folder." />
-    <MESSAGE value="Add empty view lottie animation." />
-    <MESSAGE value="Update favorite and no favorite screenshot." />
-    <MESSAGE value="Update screenshot file name on README.md file." />
     <MESSAGE value="Upgrade compile sdk and remove tools:context." />
     <MESSAGE value="Remove unused colors and string resources." />
     <MESSAGE value="Change handler using delay and Coroutine." />
@@ -642,7 +619,11 @@
     <MESSAGE value="Update project." />
     <MESSAGE value="Update content of gitignore file." />
     <MESSAGE value="Update android.yml file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update android.yml file." />
+    <MESSAGE value="Change application icon." />
+    <MESSAGE value="Add Github Action's badge." />
+    <MESSAGE value="Update leak canary version to 2.12." />
+    <MESSAGE value="Move hardcoded string to string resource and update DetailFragment's toast." />
+    <option name="LAST_COMMIT_MESSAGE" value="Move hardcoded string to string resource and update DetailFragment's toast." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
