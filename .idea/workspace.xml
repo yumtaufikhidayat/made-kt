@@ -12,13 +12,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Move hardcoded string to string resource and update DetailFragment's toast." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update project.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -106,7 +108,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ExportApk.BuildVariants&quot;: [
@@ -229,20 +231,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00138" summary="Enabling build config configuration.">
-      <created>1690321408819</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1690321408819</updated>
-    </task>
-    <task id="LOCAL-00139" summary="Enabling build config configuration.">
-      <created>1690321426272</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1690321426272</updated>
     </task>
     <task id="LOCAL-00140" summary="Enabling build config configuration.">
       <created>1690321449185</created>
@@ -573,7 +561,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691730290403</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="Update project.">
+      <created>1691805266720</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1691805266720</updated>
+    </task>
+    <task id="LOCAL-00188" summary="Update project.">
+      <created>1691805276415</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1691805276415</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -616,14 +618,14 @@
     <MESSAGE value="Add obfuscation proguard rule." />
     <MESSAGE value="Update navControllerDestination becomes object variable." />
     <MESSAGE value="Update gitignore." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Update content of gitignore file." />
     <MESSAGE value="Update android.yml file." />
     <MESSAGE value="Change application icon." />
     <MESSAGE value="Add Github Action's badge." />
     <MESSAGE value="Update leak canary version to 2.12." />
     <MESSAGE value="Move hardcoded string to string resource and update DetailFragment's toast." />
-    <option name="LAST_COMMIT_MESSAGE" value="Move hardcoded string to string resource and update DetailFragment's toast." />
+    <MESSAGE value="Update project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
