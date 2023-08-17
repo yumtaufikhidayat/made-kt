@@ -6,7 +6,7 @@
 
 > This app built to accomplish Menjadi Android Developer Expert course which be held by [Dicoding Indonesia](https://dicoding.com). Please be wise to clone and learn the flow of the app. You are not allowed to copy/derivative/steal/sell this program codes.
 
-Rick and Morty's is a simple Android application to show characters from Rick and Morty TV Show. You can see the character photo, name, status, species, and its detail of each character. This application consumes the API from [The Rick and Morty API](https://rickandmortyapi.com/).
+Rick and Morty's is a simple Android application to show characters from Rick and Morty TV Show. You can see the character photo, name, status, species, and its detail of each character. This application consumes API data from [The Rick and Morty API](https://rickandmortyapi.com/).
 
 ### App Screenshot
 | <img src=splashscreen.jpeg  align="center" height="600" width="248" ></a> | <img src=home.jpeg  align="center" height="600" width="248" ></a> | <img src=detail.jpeg  align="center" height="600" width="248" ></a> | 
@@ -32,3 +32,4 @@ This project built using these tech stacks:
 - Dagger2 & Dagger Hilt
 - Clean Architecture + MVVM Architecture
 - Modularization (App Module, Core Module, and Dynamic Feature Module (DFM))
+- Github Actions
