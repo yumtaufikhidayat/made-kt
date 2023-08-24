@@ -93,7 +93,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onDestroy() {
         super.onDestroy()
-//        _binding = null
         homeAdapter = null
         binding.rvCharacters.adapter = null
         doubleBackToExitPressedOnce = false
@@ -101,7 +100,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onDestroyView() {
         super.onDestroyView()
-//        _binding = null
         homeAdapter = null
         binding.rvCharacters.adapter = null
         doubleBackToExitPressedOnce = false
