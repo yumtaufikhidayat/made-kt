@@ -12,10 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused codes.">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove commented code that unused.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="105e9e5e-67a2-406d-a75a-371ab5d52dbb" name="DON'T COMMIT" comment="">
@@ -26,7 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -238,20 +235,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00144" summary="Add empty view lottie animation.">
-      <created>1691450357080</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1691450357081</updated>
-    </task>
-    <task id="LOCAL-00145" summary="Update project.">
-      <created>1691450368293</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1691450368293</updated>
     </task>
     <task id="LOCAL-00146" summary="Update project.">
       <created>1691450484387</created>
@@ -582,7 +565,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692657934612</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="Update project.">
+      <created>1692844768547</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1692844768548</updated>
+    </task>
+    <task id="LOCAL-00194" summary="Remove commented code that unused.">
+      <created>1692844783790</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1692844783790</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -607,7 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Change handler using delay and Coroutine." />
     <MESSAGE value="Update project and remove unused imports." />
     <MESSAGE value="Update some dependencies version." />
     <MESSAGE value="Add leak canary dependency and implementation leak canary." />
@@ -630,9 +626,10 @@
     <MESSAGE value="Update leak canary version to 2.12." />
     <MESSAGE value="Move hardcoded string to string resource and update DetailFragment's toast." />
     <MESSAGE value="Add Github Actions to tech stacks and update README.md file." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Remove unused codes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused codes." />
+    <MESSAGE value="Update project." />
+    <MESSAGE value="Remove commented code that unused." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove commented code that unused." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
