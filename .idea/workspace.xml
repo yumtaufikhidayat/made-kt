@@ -12,9 +12,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update project.">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused/commented code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorite/src/main/java/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/src/main/java/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kt" afterDir="false" />
     </list>
     <list id="105e9e5e-67a2-406d-a75a-371ab5d52dbb" name="DON'T COMMIT" comment="Add code on build.gradle (app) to run on release variant." />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +22,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.18.22:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[10DD4D095R000CK]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -234,20 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00148" summary="Update favorite and no favorite screenshot.">
-      <created>1691450797403</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1691450797403</updated>
-    </task>
-    <task id="LOCAL-00149" summary="Update favorite and no favorite screenshot.">
-      <created>1691450908467</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1691450908467</updated>
     </task>
     <task id="LOCAL-00150" summary="Update screenshot file name on README.md file.">
       <created>1691450928689</created>
@@ -578,7 +564,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693389591282</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="Update project.">
+      <created>1697147213505</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1697147213506</updated>
+    </task>
+    <task id="LOCAL-00198" summary="Remove unused/commented code.">
+      <created>1697147230627</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1697147230627</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -603,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update some dependencies version." />
     <MESSAGE value="Add leak canary dependency and implementation leak canary." />
     <MESSAGE value="Adjust lateinit var using nullable variable." />
     <MESSAGE value="Change onDestroy using onStop to fix memory leak." />
@@ -626,9 +625,10 @@
     <MESSAGE value="Add Github Actions to tech stacks and update README.md file." />
     <MESSAGE value="Remove unused codes." />
     <MESSAGE value="Remove commented code that unused." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Add code on build.gradle (app) to run on release variant." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code on build.gradle (app) to run on release variant." />
+    <MESSAGE value="Update project." />
+    <MESSAGE value="Remove unused/commented code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused/commented code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
