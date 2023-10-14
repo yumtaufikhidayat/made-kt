@@ -71,7 +71,6 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
     }
 
     override fun onDestroyView() {
-//        _binding = null
         homeAdapter = null
         super.onDestroyView()
     }
