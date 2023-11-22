@@ -59,12 +59,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         homeAdapter = HomeAdapter {
             navigateToDetail(it)
         }
-        binding.apply {
-            with(rvCharacters) {
-                layoutManager = LinearLayoutManager(requireContext())
-                setHasFixedSize(true)
-                adapter = homeAdapter
-            }
+        binding.rvCharacters.apply {
+            layoutManager = LinearLayoutManager(requireContext())
+            setHasFixedSize(true)
+            adapter = homeAdapter
         }
     }
 
