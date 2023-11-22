@@ -47,21 +47,21 @@ android {
 dependencies {
 
     // Coroutine
-    def coroutineVersion = '1.7.1'
-    api "androidx.lifecycle:lifecycle-livedata-ktx:$coroutineVersion"
+    def lifecycleVersion = '2.6.2'
+    api "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
 
     // Hilt
-    def hiltVersion = '2.47'
+    def hiltVersion = '2.48.1'
     implementation "com.google.dagger:hilt-android:$hiltVersion"
     kapt "com.google.dagger:hilt-compiler:$hiltVersion"
 
     // Lottie
-    def lottieVersion = '6.0.0'
+    def lottieVersion = '6.1.0'
     implementation "com.airbnb.android:lottie:$lottieVersion"
 
     // Encryption
     implementation "net.zetetic:android-database-sqlcipher:4.4.2"
-    implementation "androidx.sqlite:sqlite-ktx:2.3.1"
+    implementation "androidx.sqlite:sqlite-ktx:2.4.0"
 }
 hilt {
     enableAggregatingTask = true
