@@ -12,9 +12,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove unused/commented code.">
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update version for navigation fragment ktx, navigation ui ktx, navigation dynamic features fragment, room, and activity ktx deps.">
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/src/main/java/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/src/main/java/com/yumtaufikhidayat/rickandmortys/favorite/ui/FavoriteFragment.kt" afterDir="false" />
     </list>
     <list id="105e9e5e-67a2-406d-a75a-371ab5d52dbb" name="DON'T COMMIT" comment="Add code on build.gradle (app) to run on release variant." />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +27,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[10DD4D095R000CK]" />
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -92,32 +100,35 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ApkExportedModule&quot;: &quot;Rick_and_Morty's.app&quot;,
-    &quot;BundleExportedModule&quot;: &quot;Rick_and_Morty's.app&quot;,
-    &quot;ExportApk.ApkPathForRick_and_Morty's.app&quot;: &quot;/Users/rizkahidayat/Documents/VersionControl/Build APK Rick and Morty's App&quot;,
-    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.android.tools.idea.devicemanager.tab&quot;: &quot;Physical&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rizkahidayat/Documents/VersionControl/github/made-kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApkExportedModule": "Rick_and_Morty's.app",
+    "BundleExportedModule": "Rick_and_Morty's.app",
+    "ExportApk.ApkPathForRick_and_Morty's.app": "/Users/rizkahidayat/Documents/VersionControl/Build APK Rick and Morty's App",
+    "PROJECT_TRUSTED_KEY": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.android.tools.idea.devicemanager.tab": "Physical",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/rizkahidayat/Documents/VersionControl/github/made-kt",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ExportApk.BuildVariants&quot;: [
-      &quot;release&quot;
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/favorite/src/main/res/layout" />
@@ -234,48 +245,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688945656937</updated>
-    </task>
-    <task id="LOCAL-00150" summary="Update screenshot file name on README.md file.">
-      <created>1691450928689</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1691450928689</updated>
-    </task>
-    <task id="LOCAL-00151" summary="Upgrade compile sdk and remove tools:context.">
-      <created>1691487038361</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1691487038362</updated>
-    </task>
-    <task id="LOCAL-00152" summary="Remove unused colors and string resources.">
-      <created>1691487115338</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1691487115338</updated>
-    </task>
-    <task id="LOCAL-00153" summary="Change handler using delay and Coroutine.">
-      <created>1691487234113</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1691487234113</updated>
-    </task>
-    <task id="LOCAL-00154" summary="Update project and remove unused imports.">
-      <created>1691487285920</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1691487285920</updated>
-    </task>
-    <task id="LOCAL-00155" summary="Update some dependencies version.">
-      <created>1691488287817</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1691488287817</updated>
     </task>
     <task id="LOCAL-00156" summary="Add leak canary dependency and implementation leak canary.">
       <created>1691488641648</created>
@@ -578,7 +547,49 @@
       <option name="project" value="LOCAL" />
       <updated>1697147230627</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="Remove unused/commented code.">
+      <created>1697325874408</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1697325874412</updated>
+    </task>
+    <task id="LOCAL-00200" summary="Update local.">
+      <created>1697325995511</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1697325995511</updated>
+    </task>
+    <task id="LOCAL-00201" summary="Simplify scope function.">
+      <created>1700619346739</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1700619346739</updated>
+    </task>
+    <task id="LOCAL-00202" summary="Update dependencies version.">
+      <created>1700619368612</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1700619368612</updated>
+    </task>
+    <task id="LOCAL-00203" summary="Update version for sql cipher and lottie deps.">
+      <created>1703052183848</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1703052183850</updated>
+    </task>
+    <task id="LOCAL-00204" summary="Update version for navigation fragment ktx, navigation ui ktx, navigation dynamic features fragment, room, and activity ktx deps.">
+      <created>1703052316213</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1703052316213</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -603,11 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add leak canary dependency and implementation leak canary." />
-    <MESSAGE value="Adjust lateinit var using nullable variable." />
-    <MESSAGE value="Change onDestroy using onStop to fix memory leak." />
-    <MESSAGE value="Move passphrase to Constants class. Also add fallbackToDestructiveMigration() method." />
-    <MESSAGE value="Add ssl pinning." />
     <MESSAGE value="Move hardcoded ssl pinning key to Constants class." />
     <MESSAGE value="Optimize imports." />
     <MESSAGE value="Add buildTypes debug." />
@@ -628,7 +634,12 @@
     <MESSAGE value="Add code on build.gradle (app) to run on release variant." />
     <MESSAGE value="Update project." />
     <MESSAGE value="Remove unused/commented code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused/commented code." />
+    <MESSAGE value="Update local." />
+    <MESSAGE value="Simplify scope function." />
+    <MESSAGE value="Update dependencies version." />
+    <MESSAGE value="Update version for sql cipher and lottie deps." />
+    <MESSAGE value="Update version for navigation fragment ktx, navigation ui ktx, navigation dynamic features fragment, room, and activity ktx deps." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version for navigation fragment ktx, navigation ui ktx, navigation dynamic features fragment, room, and activity ktx deps." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
