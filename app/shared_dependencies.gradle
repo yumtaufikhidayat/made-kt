@@ -8,7 +8,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
     // Navigation Component
-    def navigationVersion = '2.7.5'
+    def navigationVersion = '2.7.6'
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-dynamic-features-fragment:$navigationVersion"
@@ -23,7 +23,7 @@ dependencies {
     implementation "com.github.bumptech.glide:glide:$glideVersion"
 
     // Room + KTX
-    def roomVersion = '2.6.0'
+    def roomVersion = '2.6.1'
     implementation "androidx.room:room-runtime:$roomVersion"
     kapt "androidx.room:room-compiler:$roomVersion"
     androidTestImplementation "androidx.room:room-testing:$roomVersion"
@@ -42,7 +42,7 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
 
     // Android KTX
-    def activityKtxVersion = "1.8.1"
+    def activityKtxVersion = "1.8.2"
     def fragmentKtxVersion = "1.6.2"
     implementation "androidx.activity:activity-ktx:$activityKtxVersion"
     implementation "androidx.fragment:fragment-ktx:$fragmentKtxVersion"
