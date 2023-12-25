@@ -29,7 +29,7 @@ class CharacterRepository @Inject constructor(
                 return data.isNullOrEmpty()
             }
 
-            override suspend fun createCall(): Flow<ApiResponse<List<CharacterResult>>> {
+            override fun createCall(): Flow<ApiResponse<List<CharacterResult>>> {
                 return remoteDataSource.getAllCharacters()
             }
 
