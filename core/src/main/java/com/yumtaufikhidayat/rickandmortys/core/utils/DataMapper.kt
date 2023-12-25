@@ -38,7 +38,7 @@ object DataMapper {
                 type = it.type,
                 url = it.url,
                 isFavorite = it.isFavorite
-                )
+            )
         }
     }
 
