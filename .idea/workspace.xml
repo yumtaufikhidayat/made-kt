@@ -12,7 +12,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Remove suspend for function that return flow/observable.">
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update local project.">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="105e9e5e-67a2-406d-a75a-371ab5d52dbb" name="DON'T COMMIT" comment="Add code on build.gradle (app) to run on release variant." />
@@ -584,7 +585,7 @@
       <option name="project" value="LOCAL" />
       <updated>1703471222616</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -629,12 +630,12 @@
     <MESSAGE value="Update dependencies version." />
     <MESSAGE value="Update version for sql cipher and lottie deps." />
     <MESSAGE value="Update version for navigation fragment ktx, navigation ui ktx, navigation dynamic features fragment, room, and activity ktx deps." />
-    <MESSAGE value="Update local project." />
     <MESSAGE value="Remove unused variable in constructor and the following codes." />
     <MESSAGE value="Reformat the bracket." />
     <MESSAGE value="Add comment for empty body function and remove suspend for function that return flow/observable." />
     <MESSAGE value="Remove suspend for function that return flow/observable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove suspend for function that return flow/observable." />
+    <MESSAGE value="Update local project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update local project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
