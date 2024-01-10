@@ -59,12 +59,12 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // Hilt
-    def hiltVersion = '2.48.1'
+    def hiltVersion = '2.50'
     implementation "com.google.dagger:hilt-android:$hiltVersion"
     kapt "com.google.dagger:hilt-compiler:$hiltVersion"
 
     // Dagger
-    def daggerVersion = '2.48.1'
+    def daggerVersion = '2.50'
     api "com.google.dagger:dagger:$daggerVersion"
     api "com.google.dagger:dagger-android:$daggerVersion"
 }
