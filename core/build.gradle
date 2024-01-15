@@ -51,7 +51,7 @@ dependencies {
     api "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
 
     // Hilt
-    def hiltVersion = '2.48.1'
+    def hiltVersion = '2.50'
     implementation "com.google.dagger:hilt-android:$hiltVersion"
     kapt "com.google.dagger:hilt-compiler:$hiltVersion"
 
