@@ -12,7 +12,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update livedata version." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update local project.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="105e9e5e-67a2-406d-a75a-371ab5d52dbb" name="DON'T COMMIT" comment="Add code on build.gradle (app) to run on release variant." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[10DD4D095R000CK]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -582,7 +584,7 @@
       <option name="project" value="LOCAL" />
       <updated>1703471222616</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -627,12 +629,12 @@
     <MESSAGE value="Reformat the bracket." />
     <MESSAGE value="Add comment for empty body function and remove suspend for function that return flow/observable." />
     <MESSAGE value="Remove suspend for function that return flow/observable." />
-    <MESSAGE value="Update local project." />
     <MESSAGE value="Update hilt and dagger version." />
     <MESSAGE value="Update project." />
     <MESSAGE value="Update hilt version." />
     <MESSAGE value="Update livedata version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update livedata version." />
+    <MESSAGE value="Update local project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update local project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
