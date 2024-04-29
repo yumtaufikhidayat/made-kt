@@ -76,11 +76,13 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
 
     private fun setFavoriteCharacter(isFavorite: Boolean) {
         binding.toolbarDetail.imgFavorite.apply {
-            if (isFavorite) {
-                setImageDrawable(setFavoriteIcon(R.drawable.ic_favorite))
-            } else {
-                setImageDrawable(setFavoriteIcon(R.drawable.ic_not_favorite))
-            }
+            setImageDrawable(setFavoriteIcon(
+                if (isFavorite)
+                    R.drawable.ic_favorite
+                else
+                    R.drawable.ic_not_favorite
+                )
+            )
         }
     }
 
