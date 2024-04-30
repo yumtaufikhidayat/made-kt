@@ -23,7 +23,6 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     private val binding by viewBinding<FragmentDetailBinding>()
 
     private val viewModel: DetailViewModel by viewModels()
-    private var character: Character? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -39,8 +38,7 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     }
 
     private fun getBundleData() {
-        character = arguments?.getParcelable(EXTRA_DATA)
-        setDetailCharacterInformation(character)
+        setDetailCharacterInformation(arguments?.getParcelable(EXTRA_DATA))
     }
 
     private fun setDetailCharacterInformation(character: Character?) {
