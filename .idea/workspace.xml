@@ -12,7 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update: adjust code for show toast favorite." />
+    <list default="true" id="573bf812-1431-4288-a7f1-68614da31cc1" name="Changes" comment="Update: update hilt and dagger version lib." />
     <list id="105e9e5e-67a2-406d-a75a-371ab5d52dbb" name="DON'T COMMIT" comment="Add code on build.gradle (app) to run on release variant.">
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
@@ -24,7 +24,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=Default, isTemplate=false, identifier=serial=192.168.18.13:5555;connection=47e6015f)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -607,7 +607,7 @@
       <option name="project" value="LOCAL" />
       <updated>1703471222616</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -632,8 +632,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update leak canary version to 2.12." />
-    <MESSAGE value="Move hardcoded string to string resource and update DetailFragment's toast." />
     <MESSAGE value="Add Github Actions to tech stacks and update README.md file." />
     <MESSAGE value="Remove unused codes." />
     <MESSAGE value="Remove commented code that unused." />
@@ -657,7 +655,9 @@
     <MESSAGE value="Update: simplify parcelable data." />
     <MESSAGE value="Update: local project." />
     <MESSAGE value="Update: adjust code for show toast favorite." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: adjust code for show toast favorite." />
+    <MESSAGE value="Update: update local project." />
+    <MESSAGE value="Update: update hilt and dagger version lib." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: update hilt and dagger version lib." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
